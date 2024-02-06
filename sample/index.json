@@ -7,7 +7,7 @@
       "dataurl": "/data/datajs/サンプル請求書01.json",
       "configurl": "/data/config/サンプル請求書01.json",
       "imgurl": "/imgs/サンプル請求書01.png",
-      “descrption": "請求書サンプル",
+      "descrption": "請求書サンプル",
       "lastupdate":"20240206"
     },
     {
@@ -16,7 +16,7 @@
       "dataurl": "/data/datajs/サンプル請求書02.json",
       "configurl": "/data/config/サンプル請求書02.json",
       "imgurl": "/imgs/サンプル請求書02.png",
-      “descrption": "請求書サンプル",
+      "descrption": "請求書サンプル",
       "lastupdate":"20240206"
     }
   ]
