@@ -6,14 +6,16 @@
       "group": "共通",
       "dataurl": "/data/datajs/a.json",
       "configurl": "/data/config/a.json",
-      "imgurl": "/imgs/a.png"
+      "imgurl": "/imgs/a.png",
+      "lastupdate":"20240206"
     },
     {
       "name": "サンプル請求書02",
       "group": "共通",
       "dataurl": "/data/datajs/a.json",
       "configurl": "/data/config/a.json",
-      "imgurl": "/imgs/a.png"
+      "imgurl": "/imgs/a.png",
+      "lastupdate":"20240206"
     }
   ]
 }
