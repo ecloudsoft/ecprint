@@ -4,9 +4,9 @@
     {
       "name": "サンプル請求書01",
       "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書01_data.json",
+      "dataurl": "/data/datajs/サンプル請求書01.json",
       "configurl": "/data/config/サンプル請求書01.json",
-      "imgurl": "/imgs/サンプル請求書01_サムネイル.png",
+      "imgurl": "/imgs/サンプル請求書01.png",
       "lastupdate":"20240206"
     },
     {
