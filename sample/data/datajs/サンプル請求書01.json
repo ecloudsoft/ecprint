@@ -1,8 +1,9 @@
 {
-  "no": "T305123456789",
+  "no": "T665544332211",
   "billingDate": "2025年01月01日",
+  "registrationNumber": "T112233445566",
   "specificCompanyName": "株式会社サンプル　XXXX支社",
-  "seal": "https://github.com/ecloudsoft/ecprint/blob/2530931592978aca839fd540fc84f5a46d6b10ad/sample/imgs/%E3%83%86%E3%82%B9%E3%83%88%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97.png?raw=true",
+  "seal": "https://ecloudsoft.github.io/ecprint/sample/imgs/テストスタンプ.png",
   "invoiceNo": "株式会社サンプル(No33)",
   "postalSymbol": "14100033",
   "specificAddress": "東京都千代田区",
