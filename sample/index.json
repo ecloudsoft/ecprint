@@ -1,0 +1,19 @@
+{
+  "rootpath": "https://ecloudsoft.github.io/ecprint/sample",
+  "details": [
+    {
+      "name": "サンプル請求書01",
+      "grop": "共通",
+      "dataurl": "/data/datajs/a.json",
+      "configurl": "/data/config/a.json",
+      "imgurl": "/imgs/a.png"
+    },
+    {
+      "name": "サンプル請求書01",
+      "grop": "共通",
+      "dataurl": "/data/datajs/a.json",
+      "configurl": "/data/config/a.json",
+      "imgurl": "/imgs/a.png"
+    }
+  ]
+}
