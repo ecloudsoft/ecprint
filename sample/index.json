@@ -12,9 +12,9 @@
     {
       "name": "サンプル請求書02",
       "group": "共通",
-      "dataurl": "/data/datajs/a.json",
-      "configurl": "/data/config/a.json",
-      "imgurl": "/imgs/a.png",
+      "dataurl": "/data/datajs/サンプル請求書02.json",
+      "configurl": "/data/config/サンプル請求書02.json",
+      "imgurl": "/imgs/サンプル請求書02.png",
       "lastupdate":"20240206"
     }
   ]
