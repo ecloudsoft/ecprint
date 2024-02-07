@@ -20,13 +20,13 @@
       "lastupdate":"20240206"
     },
     {
-      "name": "サンプル請求書03",
+      "name": "サンプルレシート01",
       "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
+      "dataurl": "/data/datajs/サンプルレシート01.json",
+      "configurl": "/data/config/サンプルレシート01.json",
+      "imgurl": "/imgs/レシート省略図.png.png",
+      "descrption": "レシート出力レイアウト",
+      "lastupdate":"20240207"
     },
     {
       "name": "サンプル請求書04",
