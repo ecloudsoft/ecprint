@@ -29,142 +29,16 @@
       "lastupdate":"20240207"
     },
     {
-      "name": "サンプル請求書04",
+      "name": "サンプルBAR/QR（横)",
       "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
+      "dataurl": "/data/datajs/サンプルBAR/QR（横).json",
+      "configurl": "/data/config/サンプルBAR/QR（横).json",
+      "imgurl": "/imgs/サンプルBAR/QR（横).png",
+      "descrption": "サンプルBAR/QR（横)サンプル",
+      "lastupdate":"20240207"
     },
     {
       "name": "サンプル請求書05",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書06",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書07",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書08",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書09",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書10",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書11",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書12",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書13",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書14",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書15",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書16",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書17",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書18",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
-    },
-    {
-      "name": "サンプル請求書19",
       "group": "共通",
       "dataurl": "/data/datajs/サンプル請求書02.json",
       "configurl": "/data/config/サンプル請求書02.json",
