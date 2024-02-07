@@ -12,7 +12,7 @@
         {
           "options": {
             "left": 28.5,
-            "top": 0,
+            "top": 3,
             "height": 55.5,
             "width": 112.5,
             "field": "logo",
@@ -29,9 +29,9 @@
         {
           "options": {
             "left": 12,
-            "top": 60,
+            "top": 61.5,
             "height": 15,
-            "width": 22.5,
+            "width": 18,
             "title": "No.",
             "right": 39.75,
             "bottom": 73.5,
@@ -40,7 +40,8 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5
+            "fontSize": 9.75,
+            "textContentVerticalAlign": "middle"
           },
           "printElementType": {
             "title": "文本",
@@ -49,10 +50,10 @@
         },
         {
           "options": {
-            "left": 34.5,
-            "top": 60,
+            "left": 30,
+            "top": 61.5,
             "height": 15,
-            "width": 120,
+            "width": 124.5,
             "right": 153,
             "bottom": 74.25,
             "vCenter": 93.75,
@@ -60,10 +61,12 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "field": "posno",
             "hideTitle": true,
-            "zIndex": 999
+            "zIndex": 999,
+            "title": "文本",
+            "textContentVerticalAlign": "middle"
           },
           "printElementType": {
             "title": "文本",
@@ -74,18 +77,17 @@
           "options": {
             "left": 12,
             "top": 76.5,
-            "height": 28.5,
+            "height": 15,
             "width": 142.5,
-            "title": "沖縄県石川市▢▢▢▢町X丁目-１０",
+            "title": "沖縄県石川市◯◯◯◯◯町◯◯丁目-◯◯",
             "right": 155.25,
             "bottom": 103.5,
             "vCenter": 84,
             "hCenter": 89.25,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "lineHeight": 13.5,
-            "testData": "沖縄県石川市▢▢▢▢町X丁目-１０",
             "hideTitle": true,
             "zIndex": 999
           },
@@ -97,7 +99,7 @@
         {
           "options": {
             "left": 12,
-            "top": 106.5,
+            "top": 91.5,
             "height": 15,
             "width": 142.5,
             "right": 154.5,
@@ -107,9 +109,9 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "title": "電話：49-8888-5555",
-            "textContentVerticalAlign": "bottom",
+            "textContentVerticalAlign": "middle",
             "zIndex": 999
           },
           "printElementType": {
@@ -120,7 +122,7 @@
         {
           "options": {
             "left": 10.5,
-            "top": 127.5,
+            "top": 112.5,
             "height": 20,
             "width": 142.5,
             "title": "＜領　収　証＞",
@@ -145,7 +147,7 @@
         {
           "options": {
             "left": 10.5,
-            "top": 154.5,
+            "top": 139.5,
             "height": 15,
             "width": 142.5,
             "right": 155.25,
@@ -154,11 +156,11 @@
             "hCenter": 162.75,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "fontSize": 10.5,
-            "lineHeight": 13.5,
+            "fontSize": 9.75,
             "hideTitle": true,
             "field": "dt",
-            "title": "长文"
+            "title": "2024年02月07日(水) 11:30",
+            "testData": "2024年02月07日(水) 11:30"
           },
           "printElementType": {
             "title": "长文",
@@ -168,7 +170,7 @@
         {
           "options": {
             "left": 10.5,
-            "top": 177,
+            "top": 162,
             "height": 57,
             "width": 142.5,
             "right": 151.5,
@@ -186,6 +188,7 @@
             "tableBodyCellBorder": "noBorder",
             "tableFooterBorder": "topBorder",
             "tableFooterCellBorder": "noBorder",
+            "fontSize": 9.75,
             "columns": [
               [
                 {
@@ -261,7 +264,7 @@
         {
           "options": {
             "left": 12,
-            "top": 241.5,
+            "top": 226.5,
             "height": 15,
             "width": 49.5,
             "right": 60.75,
@@ -271,7 +274,7 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 12,
             "title": "お買上計"
           },
           "printElementType": {
@@ -282,7 +285,7 @@
         {
           "options": {
             "left": 61.5,
-            "top": 241.5,
+            "top": 226.5,
             "height": 15,
             "width": 90,
             "right": 123.75,
@@ -308,7 +311,7 @@
         {
           "options": {
             "left": 85.5,
-            "top": 256.5,
+            "top": 241.5,
             "height": 15,
             "width": 60,
             "right": 144,
@@ -318,7 +321,7 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "field": "tax",
             "textAlign": "right",
             "hideTitle": true,
@@ -332,7 +335,7 @@
         {
           "options": {
             "left": 144,
-            "top": 256.5,
+            "top": 241.5,
             "height": 15,
             "width": 9,
             "right": 156.75,
@@ -354,7 +357,7 @@
         {
           "options": {
             "left": 19.5,
-            "top": 258,
+            "top": 243,
             "height": 15,
             "width": 60,
             "right": 63,
@@ -364,7 +367,7 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "title": "(内消費税"
           },
           "printElementType": {
@@ -375,7 +378,7 @@
         {
           "options": {
             "left": 19.5,
-            "top": 274.5,
+            "top": 259.5,
             "height": 15,
             "width": 132,
             "right": 93,
@@ -385,7 +388,7 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "title": "※は軽減税率対象商品です"
           },
           "printElementType": {
@@ -396,7 +399,7 @@
         {
           "options": {
             "left": 9,
-            "top": 289.5,
+            "top": 274.5,
             "height": 28.5,
             "width": 142.5,
             "right": 154.5,
@@ -414,10 +417,11 @@
             "tableBodyRowBorder": "noBorder",
             "tableBodyCellBorder": "noBorder",
             "tableFooterRepeat": "no",
+            "fontSize": 9.75,
             "columns": [
               [
                 {
-                  "width": 71.00002500000001,
+                  "width": 71.0079,
                   "title": "payname",
                   "titleSync": false,
                   "field": "payname",
@@ -432,7 +436,7 @@
                   "tableSummary": ""
                 },
                 {
-                  "width": 71.49997499999999,
+                  "width": 71.4921,
                   "title": "payamount",
                   "titleSync": false,
                   "field": "payamount",
@@ -484,7 +488,7 @@
         {
           "options": {
             "left": 9,
-            "top": 322.5,
+            "top": 307.5,
             "height": 69,
             "width": 142.5,
             "right": 151.5,
@@ -499,6 +503,7 @@
             "tableBodyRowBorder": "noBorder",
             "tableBodyCellBorder": "noBorder",
             "tableFooterRepeat": "no",
+            "fontSize": 9.75,
             "columns": [
               [
                 {
@@ -567,7 +572,7 @@
         {
           "options": {
             "left": 9,
-            "top": 399,
+            "top": 384,
             "height": 15,
             "width": 54,
             "title": "ﾚｼﾞ",
@@ -578,7 +583,7 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "field": "regno",
             "textContentVerticalAlign": "middle"
           },
@@ -590,7 +595,7 @@
         {
           "options": {
             "left": 67.5,
-            "top": 399,
+            "top": 384,
             "height": 15,
             "width": 84,
             "title": "責",
@@ -601,7 +606,7 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "fontSize": 10.5,
+            "fontSize": 9.75,
             "field": "charge",
             "textContentVerticalAlign": "middle"
           },
@@ -625,7 +630,7 @@
       "watermarkOptions": {
         "content": "",
         "fillStyle": "rgba(184, 184, 184, 0.3)",
-        "fontSize": "14px",
+        "fontSize": "19px",
         "rotate": 25,
         "width": 200,
         "height": 200,
