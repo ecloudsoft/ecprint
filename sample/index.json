@@ -24,7 +24,7 @@
       "group": "共通",
       "dataurl": "/data/datajs/サンプルレシート01.json",
       "configurl": "/data/config/サンプルレシート01.json",
-      "imgurl": "/imgs/レシート省略図.png.png",
+      "imgurl": "/imgs/レシート省略図.png",
       "descrption": "レシート出力レイアウト",
       "lastupdate":"20240207"
     },
