@@ -7,7 +7,7 @@
       "height": 200,
       "width": 58,
       "paperHeader": 0,
-      "paperFooter": 570.7070707070707,
+      "paperFooter": 560.625,
       "printElements": [
         {
           "options": {
@@ -87,7 +87,6 @@
             "lineHeight": 13.5,
             "testData": "沖縄県石川市▢▢▢▢町X丁目-１０",
             "hideTitle": true,
-            "fontFamily": "ＭＳ Ｐゴシック",
             "zIndex": 999
           },
           "printElementType": {
@@ -135,7 +134,8 @@
             "fontSize": 12,
             "testData": "＜領　収　証＞",
             "textAlign": "center",
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "fontFamily": "MS UI Gothic"
           },
           "printElementType": {
             "title": "文本",
@@ -179,7 +179,6 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "tableHeaderRepeat": "none",
-            "fontSize": 10.5,
             "tableBorder": "noBorder",
             "tableHeaderBorder": "noBorder",
             "tableHeaderCellBorder": "noBorder",
@@ -308,10 +307,56 @@
         },
         {
           "options": {
+            "left": 85.5,
+            "top": 256.5,
+            "height": 15,
+            "width": 60,
+            "right": 144,
+            "bottom": 273.75,
+            "vCenter": 114,
+            "hCenter": 266.25,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "qrCodeLevel": 0,
+            "fontSize": 10.5,
+            "field": "tax",
+            "textAlign": "right",
+            "hideTitle": true,
+            "title": "文本"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 144,
+            "top": 256.5,
+            "height": 15,
+            "width": 9,
+            "right": 156.75,
+            "bottom": 274.5,
+            "vCenter": 152.25,
+            "hCenter": 267,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "qrCodeLevel": 0,
+            "fontSize": 10.5,
+            "title": ")",
+            "textAlign": "right"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 19.5,
             "top": 258,
             "height": 15,
-            "width": 73.5,
+            "width": 60,
             "right": 63,
             "bottom": 463.5,
             "vCenter": 38.25,
@@ -321,30 +366,6 @@
             "qrCodeLevel": 0,
             "fontSize": 10.5,
             "title": "(内消費税"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 91.5,
-            "top": 258,
-            "height": 15,
-            "width": 60,
-            "right": 150.75,
-            "bottom": 459,
-            "vCenter": 105.75,
-            "hCenter": 451.5,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "qrCodeLevel": 0,
-            "fontSize": 10.5,
-            "field": "tax",
-            "textAlign": "right",
-            "hideTitle": true,
-            "title": "文本"
           },
           "printElementType": {
             "title": "文本",
@@ -376,7 +397,7 @@
           "options": {
             "left": 9,
             "top": 289.5,
-            "height": 31.5,
+            "height": 28.5,
             "width": 142.5,
             "right": 154.5,
             "bottom": 339,
@@ -386,18 +407,17 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "tableHeaderRepeat": "none",
-            "fontSize": 10.5,
             "tableBorder": "noBorder",
             "tableHeaderBorder": "noBorder",
             "tableHeaderCellBorder": "noBorder",
-            "tableHeaderRowHeight": 15,
-            "tableBodyRowHeight": 15,
+            "tableBodyRowHeight": 12,
             "tableBodyRowBorder": "noBorder",
             "tableBodyCellBorder": "noBorder",
+            "tableFooterRepeat": "no",
             "columns": [
               [
                 {
-                  "width": 71.25,
+                  "width": 71.00002500000001,
                   "title": "payname",
                   "titleSync": false,
                   "field": "payname",
@@ -412,7 +432,7 @@
                   "tableSummary": ""
                 },
                 {
-                  "width": 71.25,
+                  "width": 71.49997499999999,
                   "title": "payamount",
                   "titleSync": false,
                   "field": "payamount",
@@ -464,67 +484,26 @@
         {
           "options": {
             "left": 9,
-            "top": 316.5,
-            "height": 54,
-            "width": 75,
-            "title": "长文",
-            "right": 84,
-            "bottom": 369.75,
-            "vCenter": 46.5,
-            "hCenter": 342.75,
+            "top": 322.5,
+            "height": 69,
+            "width": 142.5,
+            "right": 151.5,
+            "bottom": 405.75,
+            "vCenter": 80.25,
+            "hCenter": 368.25,
             "field": "campaign",
             "coordinateSync": false,
             "widthHeightSync": false,
-            "testData": "会員専用特典： キャンペーン期間中に会員登録すると、追加で5％の割引が適用されます\u0000",
-            "zIndex": 999
-          },
-          "printElementType": {
-            "title": "长文",
-            "type": "longText"
-          }
-        },
-        {
-          "options": {
-            "left": 94.5,
-            "top": 316.5,
-            "height": 57,
-            "width": 57,
-            "textType": "qrcode",
-            "title": "qrcode",
-            "right": 152.25,
-            "bottom": 398.25,
-            "vCenter": 123.75,
-            "hCenter": 369.75,
-            "field": "campaignUrl",
-            "testData": "https://ecloudsoft.github.io/ecprint/",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "qrCodeLevel": 0,
-            "zIndex": 999
-          },
-          "printElementType": {
-            "title": "qrcode",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 9,
-            "top": 381,
-            "height": 36,
-            "width": 142.5,
-            "right": 150.75,
-            "bottom": 417,
-            "vCenter": 79.5,
-            "hCenter": 399,
-            "coordinateSync": false,
-            "widthHeightSync": false,
             "tableHeaderRepeat": "none",
+            "tableBorder": "noBorder",
+            "tableBodyRowBorder": "noBorder",
+            "tableBodyCellBorder": "noBorder",
+            "tableFooterRepeat": "no",
             "columns": [
               [
                 {
-                  "width": 71.25,
-                  "titleSync": false,
+                  "width": 71.00002500000001,
+                  "titleSync": true,
                   "field": "content",
                   "checked": true,
                   "columnId": "content",
@@ -536,7 +515,7 @@
                   "tableSummary": ""
                 },
                 {
-                  "width": 71.25,
+                  "width": 71.49997499999999,
                   "titleSync": false,
                   "field": "url",
                   "checked": true,
@@ -544,6 +523,7 @@
                   "fixed": false,
                   "rowspan": 1,
                   "colspan": 1,
+                  "tableColumnHeight": "100%",
                   "tableTextType": "qrcode",
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": true,
@@ -587,14 +567,14 @@
         {
           "options": {
             "left": 9,
-            "top": 442.5,
+            "top": 399,
             "height": 15,
             "width": 54,
             "title": "ﾚｼﾞ",
-            "right": 63,
-            "bottom": 449.25,
-            "vCenter": 36,
-            "hCenter": 441.75,
+            "right": 62.25,
+            "bottom": 414,
+            "vCenter": 35.25,
+            "hCenter": 406.5,
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
@@ -609,8 +589,8 @@
         },
         {
           "options": {
-            "left": 69,
-            "top": 442.5,
+            "left": 67.5,
+            "top": 399,
             "height": 15,
             "width": 84,
             "title": "責",
@@ -632,7 +612,7 @@
         }
       ],
       "paperNumberLeft": 134,
-      "paperNumberTop": 403,
+      "paperNumberTop": 374,
       "paperNumberDisabled": true,
       "paperNumberContinue": true,
       "backgroundColor": "#f1ebff",
