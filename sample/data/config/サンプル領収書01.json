@@ -371,7 +371,6 @@
             "fontWeight": "bold",
             "letterSpacing": 2.25,
             "color": "#000000",
-            "backgroundColor": "#ffffff",
             "textAlign": "center",
             "textContentVerticalAlign": "middle",
             "qrCodeLevel": 0,
@@ -687,6 +686,7 @@
       "paperNumberTop": 235,
       "paperNumberDisabled": true,
       "paperNumberContinue": true,
+      "backgroundColor": "#f1ebff",
       "overPrintOptions": {
         "content": "",
         "opacity": 0.7,
