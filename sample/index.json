@@ -38,13 +38,13 @@
       "lastupdate":"20240207"
     },
     {
-      "name": "サンプル請求書05",
+      "name": "サンプル領収書01",
       "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書02.json",
-      "configurl": "/data/config/サンプル請求書02.json",
-      "imgurl": "/imgs/サンプル請求書02.png",
-      "descrption": "請求書サンプル",
-      "lastupdate":"20240206"
+      "dataurl": "/data/datajs/サンプル領収書01.json",
+      "configurl": "/data/config/サンプル領収書01.json",
+      "imgurl": "/imgs/サンプル領収書01.png",
+      "descrption": "領収書サンプル",
+      "lastupdate":"20240216"
     }
   ]
 }
