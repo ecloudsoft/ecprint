@@ -86,6 +86,31 @@
         },
         {
           "options": {
+            "left": 346.5,
+            "top": 57,
+            "height": 13.5,
+            "width": 48,
+            "title": "発行日",
+            "right": 400.5000457763672,
+            "bottom": 51.7500057220459,
+            "vCenter": 378.7500457763672,
+            "hCenter": 45.0000057220459,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 9,
+            "qrCodeLevel": 0,
+            "borderBottom": "solid",
+            "textContentVerticalAlign": "middle",
+            "dataType": "datetime",
+            "format": "yyyy/MM/dd"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 394.5,
             "top": 57,
             "height": 13.5,
@@ -106,31 +131,6 @@
             "dataType": "datetime",
             "format": "yyyy/MM/dd",
             "hideTitle": true
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 346.5,
-            "top": 57,
-            "height": 13.5,
-            "width": 48,
-            "title": "発行日",
-            "right": 400.5000457763672,
-            "bottom": 51.7500057220459,
-            "vCenter": 378.7500457763672,
-            "hCenter": 45.0000057220459,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 9,
-            "qrCodeLevel": 0,
-            "borderBottom": "solid",
-            "textContentVerticalAlign": "middle",
-            "dataType": "datetime",
-            "format": "yyyy/MM/dd"
           },
           "printElementType": {
             "title": "文本",
@@ -240,28 +240,6 @@
         },
         {
           "options": {
-            "left": 105,
-            "top": 97.5,
-            "height": 22.5,
-            "width": 178.5,
-            "title": "长文",
-            "right": 284.24061584472656,
-            "bottom": 111.7499885559082,
-            "vCenter": 194.99061584472656,
-            "hCenter": 100.4999885559082,
-            "field": "specificAddress",
-            "testData": "東京都千代田区11丁目４番地３０１ ライオンズマンション320",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true
-          },
-          "printElementType": {
-            "title": "长文",
-            "type": "longText"
-          }
-        },
-        {
-          "options": {
             "left": 46.5,
             "top": 97.5,
             "height": 22.5,
@@ -281,6 +259,28 @@
           "printElementType": {
             "title": "文本",
             "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 105,
+            "top": 97.5,
+            "height": 22.5,
+            "width": 178.5,
+            "title": "长文",
+            "right": 284.24061584472656,
+            "bottom": 111.7499885559082,
+            "vCenter": 194.99061584472656,
+            "hCenter": 100.4999885559082,
+            "field": "specificAddress",
+            "testData": "東京都千代田区11丁目４番地３０１ ライオンズマンション320",
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "hideTitle": true
+          },
+          "printElementType": {
+            "title": "长文",
+            "type": "longText"
           }
         },
         {
@@ -329,6 +329,34 @@
         },
         {
           "options": {
+            "left": 63,
+            "top": 139.5,
+            "height": 40.5,
+            "width": 106.5,
+            "title": "金額 (税込)",
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "letterSpacing": 2.25,
+            "color": "#000000",
+            "textAlign": "center",
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0,
+            "right": 168,
+            "bottom": 180,
+            "vCenter": 114.75,
+            "hCenter": 159.75,
+            "borderTop": "solid",
+            "borderBottom": "solid"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 169.5,
             "top": 139.5,
             "height": 40.5,
@@ -351,35 +379,8 @@
             "hideTitle": true,
             "title": "文本",
             "borderTop": "solid",
-            "borderBottom": "solid"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 63,
-            "top": 139.5,
-            "height": 40.5,
-            "width": 106.5,
-            "title": "金額 (税込)",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "letterSpacing": 2.25,
-            "color": "#000000",
-            "textAlign": "center",
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0,
-            "right": 168,
-            "bottom": 180,
-            "vCenter": 114.75,
-            "hCenter": 159.75,
-            "borderTop": "solid",
-            "borderBottom": "solid"
+            "borderBottom": "solid",
+            "textType": "number"
           },
           "printElementType": {
             "title": "文本",
@@ -453,21 +454,23 @@
         },
         {
           "options": {
-            "left": 264,
+            "left": 61.5,
             "top": 255,
-            "height": 18,
-            "width": 169.5,
-            "right": 433.4953308105469,
-            "bottom": 264.7452964782715,
-            "vCenter": 348.7453308105469,
-            "hCenter": 255.74529647827148,
-            "field": "invoiceNo",
+            "height": 16.5,
+            "width": 79.5,
+            "title": "小　計 (税抜)",
+            "right": 139.49533081054688,
+            "bottom": 261.7499885559082,
+            "vCenter": 99.74533081054688,
+            "hCenter": 253.4999885559082,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 10.5,
+            "fontSize": 9,
+            "fontWeight": "bold",
             "qrCodeLevel": 0,
-            "title": "文本",
+            "borderTop": "solid",
+            "borderBottom": "solid",
+            "textAlign": "center",
             "textContentVerticalAlign": "middle"
           },
           "printElementType": {
@@ -497,7 +500,8 @@
             "borderLeft": "solid",
             "borderTop": "solid",
             "borderBottom": "solid",
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "textType": "number"
           },
           "printElementType": {
             "title": "文本",
@@ -506,23 +510,21 @@
         },
         {
           "options": {
-            "left": 61.5,
+            "left": 264,
             "top": 255,
-            "height": 16.5,
-            "width": 79.5,
-            "title": "小　計 (税抜)",
-            "right": 139.49533081054688,
-            "bottom": 261.7499885559082,
-            "vCenter": 99.74533081054688,
-            "hCenter": 253.4999885559082,
+            "height": 18,
+            "width": 169.5,
+            "right": 433.4953308105469,
+            "bottom": 264.7452964782715,
+            "vCenter": 348.7453308105469,
+            "hCenter": 255.74529647827148,
+            "field": "invoiceNo",
             "coordinateSync": false,
             "widthHeightSync": false,
-            "fontSize": 9,
-            "fontWeight": "bold",
+            "hideTitle": true,
+            "fontSize": 10.5,
             "qrCodeLevel": 0,
-            "borderTop": "solid",
-            "borderBottom": "solid",
-            "textAlign": "center",
+            "title": "文本",
             "textContentVerticalAlign": "middle"
           },
           "printElementType": {
@@ -576,7 +578,8 @@
             "textAlign": "right",
             "borderLeft": "solid",
             "borderBottom": "solid",
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "textType": "number"
           },
           "printElementType": {
             "title": "文本",
@@ -599,34 +602,6 @@
             "hCenter": 269.99060440063477,
             "title": "〒",
             "fontSize": 9,
-            "textContentVerticalAlign": "middle"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 139.5,
-            "top": 288,
-            "height": 18,
-            "width": 96,
-            "title": "文本",
-            "right": 237.75,
-            "bottom": 296.9952964782715,
-            "vCenter": 189.75,
-            "hCenter": 287.9952964782715,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 9,
-            "fontWeight": "bold",
-            "qrCodeLevel": 0,
-            "field": "totalAmount",
-            "hideTitle": true,
-            "textAlign": "right",
-            "borderLeft": "solid",
-            "borderBottom": "solid",
             "textContentVerticalAlign": "middle"
           },
           "printElementType": {
@@ -661,6 +636,35 @@
         },
         {
           "options": {
+            "left": 139.5,
+            "top": 288,
+            "height": 18,
+            "width": 96,
+            "title": "文本",
+            "right": 237.75,
+            "bottom": 296.9952964782715,
+            "vCenter": 189.75,
+            "hCenter": 287.9952964782715,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 9,
+            "fontWeight": "bold",
+            "qrCodeLevel": 0,
+            "field": "totalAmount",
+            "hideTitle": true,
+            "textAlign": "right",
+            "borderLeft": "solid",
+            "borderBottom": "solid",
+            "textContentVerticalAlign": "middle",
+            "textType": "number"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 264,
             "top": 289.5,
             "height": 33,
@@ -686,7 +690,6 @@
       "paperNumberTop": 235,
       "paperNumberDisabled": true,
       "paperNumberContinue": true,
-      "backgroundColor": "#f1ebff",
       "overPrintOptions": {
         "content": "",
         "opacity": 0.7,
