@@ -6,7 +6,7 @@
       "paperType": "A4",
       "height": 297,
       "width": 210,
-      "paperHeader": 274.5,
+      "paperHeader": 253.5,
       "paperFooter": 666,
       "printElements": [
         {
@@ -242,6 +242,29 @@
         },
         {
           "options": {
+            "left": 340.5,
+            "top": 109.5,
+            "height": 16.5,
+            "width": 49.5,
+            "title": "株式会社",
+            "right": 400.5,
+            "bottom": 130.5,
+            "vCenter": 370.5,
+            "hCenter": 120,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 11.25,
+            "fontWeight": "600",
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 390,
             "top": 109.5,
             "height": 16.5,
@@ -284,29 +307,6 @@
             "qrCodeLevel": 0,
             "field": "branch",
             "hideTitle": true
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 340.5,
-            "top": 109.5,
-            "height": 16.5,
-            "width": 49.5,
-            "title": "株式会社",
-            "right": 400.5,
-            "bottom": 130.5,
-            "vCenter": 370.5,
-            "hCenter": 120,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 11.25,
-            "fontWeight": "600",
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0
           },
           "printElementType": {
             "title": "文本",
@@ -360,11 +360,11 @@
         },
         {
           "options": {
-            "left": 211.5,
+            "left": 18,
             "top": 142.5,
             "height": 21,
-            "width": 42,
-            "title": "御中",
+            "width": 60,
+            "title": "株式会社",
             "right": 99,
             "bottom": 163.5,
             "vCenter": 58.5,
@@ -408,11 +408,11 @@
         },
         {
           "options": {
-            "left": 18,
+            "left": 211.5,
             "top": 142.5,
             "height": 21,
-            "width": 60,
-            "title": "株式会社",
+            "width": 42,
+            "title": "御中",
             "right": 99,
             "bottom": 163.5,
             "vCenter": 58.5,
@@ -514,27 +514,6 @@
         },
         {
           "options": {
-            "left": 340.5,
-            "top": 196.5,
-            "height": 13.5,
-            "width": 49.5,
-            "title": "E-mail：",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 11.25,
-            "qrCodeLevel": 0,
-            "right": 384,
-            "bottom": 198,
-            "vCenter": 362.25,
-            "hCenter": 191.25
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
             "left": 18,
             "top": 196.5,
             "height": 16.5,
@@ -549,6 +528,27 @@
             "fontSize": 12.75,
             "textContentVerticalAlign": "middle",
             "qrCodeLevel": 0
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 340.5,
+            "top": 196.5,
+            "height": 13.5,
+            "width": 49.5,
+            "title": "E-mail：",
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 11.25,
+            "qrCodeLevel": 0,
+            "right": 384,
+            "bottom": 198,
+            "vCenter": 362.25,
+            "hCenter": 191.25
           },
           "printElementType": {
             "title": "文本",
@@ -581,7 +581,7 @@
         {
           "options": {
             "left": 18,
-            "top": 226.5,
+            "top": 216,
             "height": 9,
             "width": 322.5,
             "borderWidth": "1.5",
@@ -600,8 +600,32 @@
         },
         {
           "options": {
+            "left": 18,
+            "top": 225,
+            "height": 19.5,
+            "width": 82.5,
+            "title": "ご請求金額",
+            "right": 138,
+            "bottom": 265.5,
+            "vCenter": 78,
+            "hCenter": 255.75,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 12.75,
+            "fontWeight": "bold",
+            "color": "#31869b",
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 100.5,
-            "top": 237,
+            "top": 225,
             "height": 19.5,
             "width": 42,
             "title": "￥",
@@ -625,32 +649,8 @@
         },
         {
           "options": {
-            "left": 18,
-            "top": 237,
-            "height": 19.5,
-            "width": 82.5,
-            "title": "ご請求金額",
-            "right": 138,
-            "bottom": 265.5,
-            "vCenter": 78,
-            "hCenter": 255.75,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12.75,
-            "fontWeight": "bold",
-            "color": "#31869b",
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
             "left": 142.5,
-            "top": 237,
+            "top": 225,
             "height": 19.5,
             "width": 102,
             "title": "文本",
@@ -678,7 +678,7 @@
         {
           "options": {
             "left": 18,
-            "top": 267,
+            "top": 246,
             "height": 9,
             "width": 322.5,
             "borderWidth": "1.5",
@@ -698,7 +698,7 @@
         {
           "options": {
             "left": 16.5,
-            "top": 280.5,
+            "top": 259.5,
             "height": 55.5,
             "width": 550,
             "autoCompletion": true,
@@ -803,98 +803,6 @@
         },
         {
           "options": {
-            "left": 145.5,
-            "top": 670.5,
-            "height": 15,
-            "width": 25.5,
-            "title": "銀行",
-            "right": 171,
-            "bottom": 685.5,
-            "vCenter": 158.25,
-            "hCenter": 678,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 10.5,
-            "qrCodeLevel": 0,
-            "textContentVerticalAlign": "middle"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 171,
-            "top": 670.5,
-            "height": 15,
-            "width": 70.5,
-            "title": "文本",
-            "right": 243,
-            "bottom": 686.25,
-            "vCenter": 207.75,
-            "hCenter": 678.75,
-            "field": "bankBranch",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 10.5,
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 241.5,
-            "top": 670.5,
-            "height": 15,
-            "width": 25.5,
-            "title": "支店",
-            "right": 267,
-            "bottom": 685.5,
-            "vCenter": 254.25,
-            "hCenter": 678,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 10.5,
-            "qrCodeLevel": 0,
-            "textContentVerticalAlign": "middle"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 75,
-            "top": 670.5,
-            "height": 15,
-            "width": 70.5,
-            "title": "文本",
-            "right": 170.25,
-            "bottom": 684.75,
-            "vCenter": 135,
-            "hCenter": 677.25,
-            "field": "bank",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 10.5,
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
             "left": 373.5,
             "top": 672,
             "height": 15,
@@ -993,6 +901,98 @@
         },
         {
           "options": {
+            "left": 75,
+            "top": 685.5,
+            "height": 15,
+            "width": 70.5,
+            "title": "文本",
+            "right": 170.25,
+            "bottom": 684.75,
+            "vCenter": 135,
+            "hCenter": 677.25,
+            "field": "bank",
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "hideTitle": true,
+            "fontSize": 10.5,
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 145.5,
+            "top": 685.5,
+            "height": 15,
+            "width": 25.5,
+            "title": "銀行",
+            "right": 171,
+            "bottom": 685.5,
+            "vCenter": 158.25,
+            "hCenter": 678,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 10.5,
+            "qrCodeLevel": 0,
+            "textContentVerticalAlign": "middle"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 171,
+            "top": 685.5,
+            "height": 15,
+            "width": 70.5,
+            "title": "文本",
+            "right": 243,
+            "bottom": 686.25,
+            "vCenter": 207.75,
+            "hCenter": 678.75,
+            "field": "bankBranch",
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "hideTitle": true,
+            "fontSize": 10.5,
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 241.5,
+            "top": 685.5,
+            "height": 15,
+            "width": 25.5,
+            "title": "支店",
+            "right": 267,
+            "bottom": 685.5,
+            "vCenter": 254.25,
+            "hCenter": 678,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 10.5,
+            "qrCodeLevel": 0,
+            "textContentVerticalAlign": "middle"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
             "left": 373.5,
             "top": 693,
             "height": 9,
@@ -1013,38 +1013,14 @@
         },
         {
           "options": {
-            "left": 196.5,
-            "top": 700.5,
-            "height": 15,
-            "width": 70.5,
-            "title": "文本",
-            "right": 170.25,
-            "bottom": 715.5,
-            "vCenter": 135,
-            "hCenter": 708,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "qrCodeLevel": 0,
-            "field": "cardNumber",
-            "hideTitle": true,
-            "fontSize": 10.5,
-            "textContentVerticalAlign": "middle"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 171,
+            "left": 75,
             "top": 700.5,
             "height": 15,
             "width": 25.5,
-            "title": "カ）",
-            "right": 198,
+            "title": "普通",
+            "right": 100.5,
             "bottom": 715.5,
-            "vCenter": 185.25,
+            "vCenter": 87.75,
             "hCenter": 708,
             "coordinateSync": false,
             "widthHeightSync": false,
@@ -1083,23 +1059,44 @@
         },
         {
           "options": {
-            "left": 426,
+            "left": 171,
             "top": 700.5,
             "height": 15,
-            "width": 42,
-            "title": "￥",
-            "right": 395.25,
-            "bottom": 691.5,
-            "vCenter": 374.25,
-            "hCenter": 681.75,
+            "width": 25.5,
+            "title": "カ）",
+            "right": 198,
+            "bottom": 715.5,
+            "vCenter": 185.25,
+            "hCenter": 708,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "fontSize": 15,
-            "fontWeight": "bold",
-            "color": "#000000",
-            "textAlign": "center",
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0
+            "fontSize": 10.5,
+            "qrCodeLevel": 0,
+            "textContentVerticalAlign": "middle"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 196.5,
+            "top": 700.5,
+            "height": 15,
+            "width": 70.5,
+            "title": "文本",
+            "right": 170.25,
+            "bottom": 715.5,
+            "vCenter": 135,
+            "hCenter": 708,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "qrCodeLevel": 0,
+            "field": "cardNumber",
+            "hideTitle": true,
+            "fontSize": 10.5,
+            "textContentVerticalAlign": "middle"
           },
           "printElementType": {
             "title": "文本",
@@ -1123,6 +1120,31 @@
             "color": "#31869b",
             "qrCodeLevel": 0,
             "textContentVerticalAlign": "middle"
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 426,
+            "top": 700.5,
+            "height": 15,
+            "width": 42,
+            "title": "￥",
+            "right": 395.25,
+            "bottom": 691.5,
+            "vCenter": 374.25,
+            "hCenter": 681.75,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "color": "#000000",
+            "textAlign": "center",
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0
           },
           "printElementType": {
             "title": "文本",
@@ -1157,24 +1179,22 @@
         },
         {
           "options": {
-            "left": 75,
-            "top": 700.5,
-            "height": 15,
-            "width": 25.5,
-            "title": "普通",
-            "right": 100.5,
-            "bottom": 715.5,
-            "vCenter": 87.75,
-            "hCenter": 708,
+            "left": 16.5,
+            "top": 720,
+            "height": 9,
+            "width": 252,
+            "borderWidth": "1.5",
+            "right": 240.75,
+            "bottom": 731.25,
+            "vCenter": 128.25,
+            "hCenter": 726.75,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "fontSize": 10.5,
-            "qrCodeLevel": 0,
-            "textContentVerticalAlign": "middle"
+            "borderColor": "#31869b"
           },
           "printElementType": {
-            "title": "文本",
-            "type": "text"
+            "title": "横线",
+            "type": "hline"
           }
         },
         {
@@ -1199,22 +1219,50 @@
         },
         {
           "options": {
-            "left": 16.5,
-            "top": 720,
-            "height": 9,
-            "width": 252,
-            "borderWidth": "1.5",
-            "right": 240.75,
-            "bottom": 731.25,
-            "vCenter": 128.25,
-            "hCenter": 726.75,
+            "left": 19.5,
+            "top": 729,
+            "height": 15,
+            "width": 70.5,
+            "title": "お支払期限",
+            "right": 85.5,
+            "bottom": 743.25,
+            "vCenter": 57,
+            "hCenter": 736.5,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "borderColor": "#31869b"
+            "fontSize": 10.5,
+            "fontWeight": "bold",
+            "color": "#31869b",
+            "qrCodeLevel": 0,
+            "textContentVerticalAlign": "middle"
           },
           "printElementType": {
-            "title": "横线",
-            "type": "hline"
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 90,
+            "top": 729,
+            "height": 15,
+            "width": 150,
+            "title": "文本",
+            "field": "paymentTerm",
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "hideTitle": true,
+            "fontSize": 10.5,
+            "textContentVerticalAlign": "middle",
+            "qrCodeLevel": 0,
+            "right": 171,
+            "bottom": 744.75,
+            "vCenter": 135.75,
+            "hCenter": 737.25
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
           }
         },
         {
@@ -1267,30 +1315,6 @@
         },
         {
           "options": {
-            "left": 90,
-            "top": 729,
-            "height": 15,
-            "width": 150,
-            "title": "文本",
-            "field": "paymentTerm",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 10.5,
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0,
-            "right": 171,
-            "bottom": 744.75,
-            "vCenter": 135.75,
-            "hCenter": 737.25
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
             "left": 468,
             "top": 729,
             "height": 15,
@@ -1318,26 +1342,22 @@
         },
         {
           "options": {
-            "left": 19.5,
-            "top": 729,
-            "height": 15,
-            "width": 70.5,
-            "title": "お支払期限",
-            "right": 85.5,
-            "bottom": 743.25,
-            "vCenter": 57,
-            "hCenter": 736.5,
+            "left": 16.5,
+            "top": 751.5,
+            "height": 9,
+            "width": 252,
+            "borderWidth": "1.5",
+            "right": 240,
+            "bottom": 759,
+            "vCenter": 127.5,
+            "hCenter": 754.5,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "fontSize": 10.5,
-            "fontWeight": "bold",
-            "color": "#31869b",
-            "qrCodeLevel": 0,
-            "textContentVerticalAlign": "middle"
+            "borderColor": "#31869b"
           },
           "printElementType": {
-            "title": "文本",
-            "type": "text"
+            "title": "横线",
+            "type": "hline"
           }
         },
         {
@@ -1351,26 +1371,6 @@
             "bottom": 759.75,
             "vCenter": 431.25,
             "hCenter": 755.25,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "borderColor": "#31869b"
-          },
-          "printElementType": {
-            "title": "横线",
-            "type": "hline"
-          }
-        },
-        {
-          "options": {
-            "left": 16.5,
-            "top": 751.5,
-            "height": 9,
-            "width": 252,
-            "borderWidth": "1.5",
-            "right": 240,
-            "bottom": 759,
-            "vCenter": 127.5,
-            "hCenter": 754.5,
             "coordinateSync": false,
             "widthHeightSync": false,
             "borderColor": "#31869b"
