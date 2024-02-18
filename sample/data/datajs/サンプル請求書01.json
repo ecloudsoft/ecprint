@@ -5,15 +5,14 @@
   "specificCompanyName": "株式会社サンプル　XXXX支社",
   "seal": "https://ecloudsoft.github.io/ecprint/sample/imgs/テストスタンプ.png",
   "invoiceNo": "株式会社サンプル(No33)",
-  "postalSymbol": "14100033",
-  "specificAddress": "東京都千代田区",
-  "department": "IT部門",
-  "personInCharge": "テスト 太郎34 様",
+  "postalSymbol": "141-0033",
+  "specificAddress": "東京都千代田区11丁目３番地３０１　サンプル601",
+  "personInCharge": "IT部門 テスト 太郎 様",
   "address": "東京都千代田区３丁目４番地３０１",
   "floor": "",
   "landlinePhone": "(03)-19211-9921",
   "fax": "(03)-19211-9922",
-  "totalAmount": "¥33,117",
+  "totalAmount": "33117",
   "email": "info@test.com",
   "table": [
     {
@@ -41,8 +40,8 @@
       "amount": "5000"
     }
   ],
-  "subtotal": "¥30,106",
-  "consumptionTax": "¥3010.6",
+  "subtotal": "30106",
+  "consumptionTax": "3011",
   "remarks": "ここに説明が必要な備考情報を記入します。",
   "bank": "XXXXXXXX",
   "branch": "XXXXXXXX",
