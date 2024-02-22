@@ -45,6 +45,15 @@
       "imgurl": "/imgs/サンプル領収書01.png",
       "descrption": "領収書サンプル",
       "lastupdate":"20240216"
+    },
+    {
+      "name": "申告書サンプル",
+      "group": "共通",
+      "dataurl": "/data/datajs/申告書サンプル.json",
+      "configurl": "/data/config/申告書サンプル.json",
+      "imgurl": "/imgs/申告書サンプル.png",
+      "descrption": "申告書サンプル",
+      "lastupdate":"20240222"
     }
   ]
 }
