@@ -6,8 +6,8 @@
       "paperType": "自定义",
       "height": 200,
       "width": 58,
-      "paperHeader": 0,
-      "paperFooter": 560.625,
+      "paperHeader": 20,
+      "paperFooter": 520.625,
       "printElements": [
         {
           "options": {
@@ -413,11 +413,11 @@
             "tableBorder": "noBorder",
             "tableHeaderBorder": "noBorder",
             "tableHeaderCellBorder": "noBorder",
-            "tableBodyRowHeight": 12,
+            "tableBodyRowHeight": 12.75,
             "tableBodyRowBorder": "noBorder",
             "tableBodyCellBorder": "noBorder",
-            "tableFooterRepeat": "no",
             "fontSize": 9.75,
+            "autoCompletion": false,
             "columns": [
               [
                 {
@@ -488,13 +488,13 @@
         {
           "options": {
             "left": 9,
-            "top": 307.5,
+            "top": 310.5,
             "height": 69,
             "width": 142.5,
             "right": 151.5,
-            "bottom": 405.75,
+            "bottom": 378.75,
             "vCenter": 80.25,
-            "hCenter": 368.25,
+            "hCenter": 344.25,
             "field": "campaign",
             "coordinateSync": false,
             "widthHeightSync": false,
@@ -502,8 +502,9 @@
             "tableBorder": "noBorder",
             "tableBodyRowBorder": "noBorder",
             "tableBodyCellBorder": "noBorder",
-            "tableFooterRepeat": "no",
             "fontSize": 9.75,
+            "autoCompletion": false,
+            "lineHeight": 9.75,
             "columns": [
               [
                 {
@@ -572,7 +573,7 @@
         {
           "options": {
             "left": 9,
-            "top": 384,
+            "top": 390,
             "height": 15,
             "width": 54,
             "title": "ﾚｼﾞ",
@@ -595,7 +596,7 @@
         {
           "options": {
             "left": 67.5,
-            "top": 384,
+            "top": 390,
             "height": 15,
             "width": 84,
             "title": "責",
@@ -620,7 +621,6 @@
       "paperNumberTop": 374,
       "paperNumberDisabled": true,
       "paperNumberContinue": true,
-      "backgroundColor": "#f1ebff",
       "fontFamily": "メイリオ",
       "overPrintOptions": {
         "content": "",
