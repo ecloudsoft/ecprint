@@ -54,6 +54,16 @@
       "imgurl": "/imgs/申告書サンプル.png",
       "descrption": "申告書サンプル(レイアウト取り込み)",
       "lastupdate":"20240222"
+    },
+    {
+      "name": "チャートサンプル",
+      "group": "共通",
+      "dataurl": "/data/datajs/サンプルチャート.json",
+      "configurl": "/data/config/サンプルチャート.json",
+      "imgurl": "/imgs/チャート省略図.png",
+      "descrption": "チャートサンプル",
+      "lastupdate":"20240301"
     }
+    
   ]
 }
