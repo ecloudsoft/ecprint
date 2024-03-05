@@ -4,10 +4,10 @@
       "index": 0,
       "name": 1,
       "paperType": "自定义",
-      "height": 200,
+      "height": 160,
       "width": 58,
       "paperHeader": 0,
-      "paperFooter": 560.625,
+      "paperFooter": 448.50000000000006,
       "printElements": [
         {
           "options": {
@@ -640,7 +640,7 @@
         }
       ],
       "paperNumberLeft": 134,
-      "paperNumberTop": 544,
+      "paperNumberTop": 431,
       "paperNumberDisabled": true,
       "paperNumberContinue": true,
       "panelPageRule": "none",
