@@ -41,7 +41,8 @@
             "widthHeightSync": false,
             "qrCodeLevel": 0,
             "fontSize": 9.75,
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -66,7 +67,8 @@
             "hideTitle": true,
             "zIndex": 999,
             "title": "文本",
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -112,7 +114,8 @@
             "fontSize": 9.75,
             "title": "電話：49-8888-5555",
             "textContentVerticalAlign": "middle",
-            "zIndex": 999
+            "zIndex": 999,
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -137,7 +140,8 @@
             "testData": "＜領　収　証＞",
             "textAlign": "center",
             "textContentVerticalAlign": "middle",
-            "fontFamily": "MS UI Gothic"
+            "fontFamily": "MS UI Gothic",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -189,6 +193,10 @@
             "tableFooterBorder": "topBorder",
             "tableFooterCellBorder": "noBorder",
             "fontSize": 9.75,
+            "lineHeight": 9.75,
+            "tableHeaderRowHeight": 20,
+            "tableHeaderFontSize": 9,
+            "tableBodyRowHeight": 18,
             "columns": [
               [
                 {
@@ -275,7 +283,8 @@
             "widthHeightSync": false,
             "qrCodeLevel": 0,
             "fontSize": 12,
-            "title": "お買上計"
+            "title": "お買上計",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -301,7 +310,8 @@
             "textAlign": "right",
             "hideTitle": true,
             "title": "文本",
-            "fontWeight": "bold"
+            "fontWeight": "bold",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -325,7 +335,8 @@
             "field": "tax",
             "textAlign": "right",
             "hideTitle": true,
-            "title": "文本"
+            "title": "文本",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -347,7 +358,8 @@
             "qrCodeLevel": 0,
             "fontSize": 10.5,
             "title": ")",
-            "textAlign": "right"
+            "textAlign": "right",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -368,7 +380,8 @@
             "widthHeightSync": false,
             "qrCodeLevel": 0,
             "fontSize": 9.75,
-            "title": "(内消費税"
+            "title": "(内消費税",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -389,7 +402,8 @@
             "widthHeightSync": false,
             "qrCodeLevel": 0,
             "fontSize": 9.75,
-            "title": "※は軽減税率対象商品です"
+            "title": "※は軽減税率対象商品です",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -418,6 +432,9 @@
             "tableBodyCellBorder": "noBorder",
             "fontSize": 9.75,
             "autoCompletion": false,
+            "lineHeight": 9.75,
+            "tableHeaderRowHeight": 20,
+            "tableHeaderFontSize": 9,
             "columns": [
               [
                 {
@@ -505,6 +522,9 @@
             "fontSize": 9.75,
             "autoCompletion": false,
             "lineHeight": 9.75,
+            "tableHeaderRowHeight": 20,
+            "tableHeaderFontSize": 9,
+            "tableBodyRowHeight": 18,
             "columns": [
               [
                 {
@@ -586,7 +606,8 @@
             "qrCodeLevel": 0,
             "fontSize": 9.75,
             "field": "regno",
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -609,7 +630,8 @@
             "qrCodeLevel": 0,
             "fontSize": 9.75,
             "field": "charge",
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "borderWidth": 0.75
           },
           "printElementType": {
             "title": "文本",
@@ -618,9 +640,10 @@
         }
       ],
       "paperNumberLeft": 134,
-      "paperNumberTop": 374,
+      "paperNumberTop": 544,
       "paperNumberDisabled": true,
       "paperNumberContinue": true,
+      "panelPageRule": "none",
       "fontFamily": "メイリオ",
       "overPrintOptions": {
         "content": "",
