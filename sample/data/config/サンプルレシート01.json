@@ -6,8 +6,8 @@
       "paperType": "自定义",
       "height": 200,
       "width": 58,
-      "paperHeader": 20,
-      "paperFooter": 520.625,
+      "paperHeader": 0,
+      "paperFooter": 560.625,
       "printElements": [
         {
           "options": {
