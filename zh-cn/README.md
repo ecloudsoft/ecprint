@@ -1,13 +1,6 @@
 <p align="center">
-  <a href="https://docsify.js.org" id="designer">
-    <img alt="EC Designer" src="./_media/icon.svg">
-  </a>
+  一个简单的，快速的云端报表设计器和打印服务程序
 </p>
-
-<p align="center">
-  A simple, fast cloud template designer and print service application.
-</p>
-
 
 ## 功能特点
 <!-- ![功能Image](../_images/zh-cn/FunctionImage.png) -->
