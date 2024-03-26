@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://docsify.js.org" id="designer">
-    <img alt="EC Designer" src="./_media/icon.svg">
+  <a href="#" id="designer">
+    EC Designer
   </a>
 </p>
 
