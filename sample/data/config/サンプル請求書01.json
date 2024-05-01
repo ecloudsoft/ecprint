@@ -30,7 +30,9 @@
             "textAlign": "center",
             "textContentVerticalAlign": "middle",
             "contentPaddingLeft": 11.25,
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -52,7 +54,9 @@
             "widthHeightSync": false,
             "fontSize": 12,
             "textAlign": "right",
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -74,9 +78,16 @@
             "fontSize": 12,
             "textAlign": "right",
             "qrCodeLevel": 0,
-            "field": "no",
+            "field": "orderno",
             "hideTitle": true,
-            "title": "文本"
+            "title": "文本",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -98,7 +109,9 @@
             "widthHeightSync": false,
             "fontSize": 12,
             "textAlign": "right",
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -121,8 +134,15 @@
             "fontSize": 12,
             "textAlign": "right",
             "qrCodeLevel": 0,
-            "field": "billingDate",
-            "hideTitle": true
+            "hideTitle": true,
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "formatter": "function(title,value,options,templateData,target){\nvar x = new Date();\n var y = x.getFullYear().toString();\n var m = (x.getMonth() + 1).toString();\n var d = x.getDate().toString();\n (d.length == 1) && (d = '0' + d);\n (m.length == 1) && (m = '0' + m);\n return (y +\"/\"+ m +\"/\"+ d);\n}",
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -144,7 +164,9 @@
             "widthHeightSync": false,
             "fontSize": 12,
             "textAlign": "right",
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -157,7 +179,7 @@
             "top": 46.5,
             "height": 13.5,
             "width": 103.5,
-            "title": "請求日 ：",
+            "title": "T12345678910",
             "right": 580.5,
             "bottom": 40.5,
             "vCenter": 525.75,
@@ -167,8 +189,13 @@
             "fontSize": 12,
             "textAlign": "right",
             "qrCodeLevel": 0,
-            "field": "registrationNumber",
-            "hideTitle": true
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -188,7 +215,8 @@
             "hCenter": 45.75,
             "coordinateSync": false,
             "widthHeightSync": false,
-            "borderColor": "#305496"
+            "borderColor": "#305496",
+            "draggable": false
           },
           "printElementType": {
             "title": "横线",
@@ -200,20 +228,28 @@
             "left": 15,
             "top": 66,
             "height": 25.5,
-            "width": 252,
+            "width": 253.5,
             "right": 160.5,
             "bottom": 65.25,
             "vCenter": 100.5,
             "hCenter": 60.375,
-            "field": "specificCompanyName",
+            "field": "reqGuestName",
             "coordinateSync": false,
             "widthHeightSync": false,
             "hideTitle": true,
             "fontSize": 13.5,
             "textContentVerticalAlign": "middle",
             "qrCodeLevel": 0,
-            "title": "文本",
-            "textAlign": "center"
+            "title": "請求先",
+            "textAlign": "center",
+            "borderWidth": "0.75",
+            "testData": "株式会社サンプル　XXXX支社",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -235,7 +271,9 @@
             "widthHeightSync": false,
             "fontSize": 12,
             "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -244,18 +282,20 @@
         },
         {
           "options": {
-            "left": 508.5,
+            "left": 507,
             "top": 76.5,
             "height": 70.5,
             "width": 70.5,
-            "right": 576,
-            "bottom": 139.5,
-            "vCenter": 540.75,
-            "hCenter": 104.25,
-            "field": "seal",
+            "right": 577.5,
+            "bottom": 147,
+            "vCenter": 542.25,
+            "hCenter": 111.75,
+            "field": "sign",
             "fit": "",
             "coordinateSync": false,
-            "widthHeightSync": false
+            "widthHeightSync": false,
+            "draggable": false,
+            "src": "https://ecloudsoft.github.io/ecprint/sample/imgs/テストスタンプ.png"
           },
           "printElementType": {
             "title": "图片",
@@ -272,13 +312,18 @@
             "bottom": 88.5,
             "vCenter": 411,
             "hCenter": 79.5,
-            "field": "invoiceNo",
             "coordinateSync": false,
             "widthHeightSync": false,
-            "hideTitle": true,
             "fontSize": 12.75,
             "qrCodeLevel": 0,
-            "title": "文本"
+            "title": "XXXXサンプル株式会社",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -299,7 +344,8 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "borderColor": "#305496",
-            "zIndex": 0
+            "zIndex": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "横线",
@@ -308,11 +354,11 @@
         },
         {
           "options": {
-            "left": 25.5,
+            "left": 15,
             "top": 96,
             "height": 15,
-            "width": 57,
-            "field": "postalSymbol",
+            "width": 67.5,
+            "field": "reqPostNo",
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
@@ -323,8 +369,14 @@
             "title": "〒",
             "fontSize": 11.25,
             "testData": "123-0123",
-            "hideTitle": true,
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -337,8 +389,8 @@
             "top": 96,
             "height": 21,
             "width": 177,
-            "title": "长文",
-            "field": "specificAddress",
+            "title": "請求先の住所",
+            "field": "reqAddress",
             "coordinateSync": false,
             "widthHeightSync": false,
             "hideTitle": true,
@@ -346,7 +398,11 @@
             "bottom": 136,
             "vCenter": 186,
             "hCenter": 117.5,
-            "testData": "東京都千代田区11丁目３番地３０１　サンプル601"
+            "testData": "東京都千代田区11丁目３番地３０１　サンプル601",
+            "fontSize": 9,
+            "letterSpacing": 0,
+            "longTextIndent": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "长文",
@@ -355,33 +411,10 @@
         },
         {
           "options": {
-            "left": 15,
-            "top": 96,
-            "height": 15,
-            "width": 10.5,
-            "title": "〒",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 11.25,
-            "textContentVerticalAlign": "middle",
-            "qrCodeLevel": 0,
-            "right": 29.25,
-            "bottom": 111.75,
-            "vCenter": 21,
-            "hCenter": 104.25
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
             "left": 327,
             "top": 99,
             "height": 16.5,
             "width": 163.5,
-            "field": "postalSymbol",
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
@@ -389,9 +422,16 @@
             "bottom": 114.75,
             "vCenter": 409.5,
             "hCenter": 106.5,
-            "title": "〒",
+            "title": "〒999-9999",
             "fontSize": 11.25,
-            "textContentVerticalAlign": "middle"
+            "textContentVerticalAlign": "middle",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -404,18 +444,18 @@
             "top": 115.5,
             "height": 37,
             "width": 163.5,
-            "title": "长文",
-            "field": "address",
+            "title": "東京都千代田区３丁目４番地XXXX",
             "coordinateSync": false,
             "widthHeightSync": false,
-            "hideTitle": true,
             "fontSize": 11.25,
             "letterSpacing": 1.5,
             "lineHeight": 15.75,
             "right": 489.75,
             "bottom": 146.25,
             "vCenter": 408,
-            "hCenter": 138
+            "hCenter": 138,
+            "longTextIndent": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "长文",
@@ -427,18 +467,26 @@
             "left": 91.5,
             "top": 117,
             "height": 16.5,
-            "width": 175.5,
+            "width": 177,
             "right": 264.75,
             "bottom": 132.75,
             "vCenter": 181.5,
             "hCenter": 124.5,
-            "field": "personInCharge",
+            "field": "reqCharge",
             "coordinateSync": false,
             "widthHeightSync": false,
             "hideTitle": true,
             "qrCodeLevel": 0,
             "title": "担当者",
-            "fontSize": 11.25
+            "fontSize": 11.25,
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false,
+            "testData": "IT部門 テスト 太郎 様"
           },
           "printElementType": {
             "title": "文本",
@@ -460,7 +508,38 @@
             "right": 265.5,
             "bottom": 160.5,
             "vCenter": 144,
-            "hCenter": 153
+            "hCenter": 153,
+            "borderWidth": 0.75,
+            "draggable": false
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 343.5,
+            "top": 151.5,
+            "height": 16.5,
+            "width": 147,
+            "right": 407.25,
+            "bottom": 177,
+            "vCenter": 372.75,
+            "hCenter": 168.75,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "qrCodeLevel": 0,
+            "title": "048-012-1234",
+            "fontSize": 9,
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "textContentVerticalAlign": "middle",
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -480,7 +559,15 @@
             "right": 339.75,
             "bottom": 179.25,
             "vCenter": 333,
-            "hCenter": 171
+            "hCenter": 171,
+            "borderWidth": "0.75",
+            "fontSize": 14,
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -489,24 +576,26 @@
         },
         {
           "options": {
-            "left": 340.5,
-            "top": 153,
-            "height": 16.5,
-            "width": 150,
-            "right": 407.25,
-            "bottom": 177,
-            "vCenter": 372.75,
-            "hCenter": 168.75,
-            "field": "landlinePhone",
+            "left": 528,
+            "top": 156,
+            "height": 50,
+            "width": 50,
+            "borderWidth": "0.75",
+            "fontSize": 10.8,
+            "textType": "qrcode",
+            "title": "https://www.samplexxxx.com",
             "coordinateSync": false,
             "widthHeightSync": false,
-            "hideTitle": true,
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
             "qrCodeLevel": 0,
-            "title": "文本",
-            "fontSize": 9
+            "draggable": false
           },
           "printElementType": {
-            "title": "文本",
+            "title": "QRCode",
             "type": "text"
           }
         },
@@ -533,7 +622,14 @@
             "field": "totalAmount",
             "hideTitle": true,
             "title": "文本",
-            "textType": "number"
+            "borderWidth": "0.75",
+            "dataType": "number",
+            "format": "$#,##0",
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -560,7 +656,38 @@
             "right": 99,
             "bottom": 196.5,
             "vCenter": 57,
-            "hCenter": 183.75
+            "hCenter": 183.75,
+            "borderWidth": 0.75,
+            "draggable": false
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 343.5,
+            "top": 168,
+            "height": 16.5,
+            "width": 147,
+            "right": 489.75,
+            "bottom": 179.25,
+            "vCenter": 455.25,
+            "hCenter": 171,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "qrCodeLevel": 0,
+            "title": "999-012-9998",
+            "fontSize": 9,
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "textContentVerticalAlign": "middle",
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -570,63 +697,25 @@
         {
           "options": {
             "left": 327,
-            "top": 171,
+            "top": 169.5,
             "height": 16.5,
             "width": 13.5,
             "title": "📠",
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "right": 339.75,
-            "bottom": 179.25,
-            "vCenter": 333,
-            "hCenter": 171
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 340.5,
-            "top": 171,
-            "height": 16.5,
-            "width": 150,
-            "right": 489.75,
-            "bottom": 179.25,
-            "vCenter": 455.25,
-            "hCenter": 171,
-            "field": "fax",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "qrCodeLevel": 0,
-            "title": "文本",
-            "fontSize": 9
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 340.5,
-            "top": 189,
-            "height": 16.5,
-            "width": 150,
-            "right": 489.75,
-            "bottom": 175.5,
-            "vCenter": 408,
-            "hCenter": 167.25,
-            "field": "email",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "qrCodeLevel": 0,
-            "title": "文本",
-            "fontSize": 9
+            "right": 340.5,
+            "bottom": 187.5,
+            "vCenter": 333.75,
+            "hCenter": 179.25,
+            "borderWidth": "0.75",
+            "fontSize": 11,
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -636,17 +725,54 @@
         {
           "options": {
             "left": 327,
-            "top": 189,
-            "height": 16.5,
+            "top": 180,
+            "height": 21,
             "width": 13.5,
             "title": "✉",
             "coordinateSync": false,
             "widthHeightSync": false,
             "qrCodeLevel": 0,
-            "right": 339.75,
-            "bottom": 179.25,
-            "vCenter": 333,
-            "hCenter": 171
+            "right": 341.25,
+            "bottom": 200.25,
+            "vCenter": 334.5,
+            "hCenter": 189.75,
+            "borderWidth": "0.75",
+            "fontSize": 20,
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 343.5,
+            "top": 184.5,
+            "height": 16.5,
+            "width": 147,
+            "right": 490.5,
+            "bottom": 204,
+            "vCenter": 417,
+            "hCenter": 195.75,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "qrCodeLevel": 0,
+            "title": "sample@xxxxxxx.com",
+            "fontSize": 9,
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "textContentVerticalAlign": "middle",
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -679,14 +805,14 @@
             "top": 213,
             "height": 60,
             "width": 562.5,
-            "field": "table",
+            "field": "detaillist",
             "coordinateSync": false,
             "widthHeightSync": false,
             "tableHeaderBackground": "#305496",
             "tableBorder": "border",
             "tableHeaderCellBorder": "noBorder",
             "color": "#ffffff",
-            "autoCompletion": true,
+            "autoCompletion": "true",
             "tableHeaderRowHeight": 33,
             "tableHeaderFontSize": 12,
             "tableBodyRowHeight": 22.5,
@@ -696,10 +822,15 @@
             "hCenter": 264,
             "tableHeaderFontColor": "#ffffff",
             "tableBodyRowBorder": "bottomBorder",
+            "fontSize": 9,
+            "lineHeight": 9.75,
+            "gridColumnsGutter": 0,
+            "tableFooterBorder": "noBorder",
+            "tableFooterCellBorder": "noBorder",
             "columns": [
               [
                 {
-                  "width": 32.657275755909744,
+                  "width": 35.181003337599996,
                   "title": "No.",
                   "titleSync": false,
                   "checked": true,
@@ -714,7 +845,7 @@
                   "tableSummary": ""
                 },
                 {
-                  "width": 266.3900224314416,
+                  "width": 294.7752323757735,
                   "title": "商品名 ／ 品名",
                   "titleSync": false,
                   "field": "productName",
@@ -730,8 +861,8 @@
                   "tableSummary": ""
                 },
                 {
-                  "width": 81.15401433126121,
-                  "title": "数　量\n",
+                  "width": 65.63202597821981,
+                  "title": "数　量",
                   "titleSync": false,
                   "field": "quantity",
                   "checked": true,
@@ -741,13 +872,16 @@
                   "colspan": 1,
                   "align": "right",
                   "halign": "center",
-                  "tableTextType": "number",
+                  "tableTextType": {
+                    "dataType": "number",
+                    "format": "#,##0"
+                  },
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": true,
                   "tableSummary": ""
                 },
                 {
-                  "width": 84.87379652711071,
+                  "width": 75.02017605331767,
                   "title": "単　価",
                   "titleSync": false,
                   "field": "unitPrice",
@@ -758,13 +892,16 @@
                   "colspan": 1,
                   "align": "right",
                   "halign": "center",
-                  "tableTextType": "number",
+                  "tableTextType": {
+                    "dataType": "number",
+                    "format": "#,##0"
+                  },
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": true,
                   "tableSummary": ""
                 },
                 {
-                  "width": 97.42489095427669,
+                  "width": 91.89156225508901,
                   "title": "金　額",
                   "titleSync": false,
                   "field": "amount",
@@ -775,7 +912,10 @@
                   "colspan": 1,
                   "align": "right",
                   "halign": "center",
-                  "tableTextType": "number",
+                  "tableTextType": {
+                    "dataType": "number",
+                    "format": "$#,##0"
+                  },
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": true,
                   "tableSummaryColspan": "2",
@@ -804,21 +944,28 @@
         },
         {
           "options": {
-            "left": 372,
+            "left": 382.5,
             "top": 625.5,
             "height": 16.5,
-            "width": 96,
+            "width": 85.5,
+            "right": 468,
+            "bottom": 642,
+            "vCenter": 413.25,
+            "hCenter": 633.75,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "qrCodeLevel": 0,
             "title": "小　計 (税抜)",
-            "right": 480.75,
-            "bottom": 672.75,
-            "vCenter": 420.75,
-            "hCenter": 667.875,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "qrCodeLevel": 0,
-            "textAlign": "right"
+            "textAlign": "right",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -840,34 +987,19 @@
             "fontSize": 12,
             "fontWeight": "bold",
             "qrCodeLevel": 0,
-            "field": "subtotal",
-            "hideTitle": true,
-            "title": "文本",
+            "title": "小　計 (税抜)",
             "textAlign": "right",
-            "textType": "number"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 370.5,
-            "top": 643.5,
-            "height": 16.5,
-            "width": 97.5,
-            "title": "消費税 (10%)",
-            "right": 460.5,
-            "bottom": 694.5,
-            "vCenter": 411,
-            "hCenter": 686.25,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "qrCodeLevel": 0,
-            "textAlign": "right"
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "hideTitle": true,
+            "dataType": "number",
+            "formatter": "function(title,value,options,templateData,target){\n\n  let sutTotal = 0;\n  for (let i = 0; i < templateData.detaillist.length; i++) {\n    sutTotal += 1*templateData.detaillist[i].amount;\n  }\n  return sutTotal;\n  \n}",
+            "format": "$#,##0",
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -889,11 +1021,19 @@
             "fontSize": 12,
             "fontWeight": "bold",
             "qrCodeLevel": 0,
-            "field": "consumptionTax",
             "hideTitle": true,
-            "title": "文本",
+            "title": "消費税(10%)",
             "textAlign": "right",
-            "textType": "number"
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "dataType": "number",
+            "formatter": "function(title,value,options,templateData,target){\n\n  let sutTotal = 0;\n  for (let i = 0; i < templateData.detaillist.length; i++) {\n    sutTotal += 1*templateData.detaillist[i].amount;\n  }\n  return sutTotal * 0.1;\n  \n}",
+            "format": "$#,##0",
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -902,21 +1042,58 @@
         },
         {
           "options": {
-            "left": 375,
+            "left": 382.5,
+            "top": 643.5,
+            "height": 16.5,
+            "width": 85.5,
+            "right": 465.75,
+            "bottom": 662.25,
+            "vCenter": 423,
+            "hCenter": 654,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "qrCodeLevel": 0,
+            "title": "消費税(10%)",
+            "textAlign": "right",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 382.5,
             "top": 661.5,
             "height": 16.5,
-            "width": 93,
+            "width": 85.5,
+            "right": 465.75,
+            "bottom": 679.5,
+            "vCenter": 423,
+            "hCenter": 671.25,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "qrCodeLevel": 0,
             "title": "合　計 (税込)",
-            "right": 480.75,
-            "bottom": 672.75,
-            "vCenter": 420.75,
-            "hCenter": 667.875,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "qrCodeLevel": 0,
-            "textAlign": "right"
+            "textAlign": "right",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -929,7 +1106,7 @@
             "top": 661.5,
             "height": 16.5,
             "width": 109.5,
-            "title": "文本",
+            "title": "合　計 (税込)",
             "right": 577.5,
             "bottom": 712.5,
             "vCenter": 515.25,
@@ -939,10 +1116,19 @@
             "fontSize": 13.5,
             "fontWeight": "bold",
             "qrCodeLevel": 0,
-            "field": "totalAmount",
             "hideTitle": true,
             "textAlign": "right",
-            "textType": "number"
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "formatter": "function(title,value,options,templateData,target){\n\n  \n}",
+            "dataType": "number",
+            "format": "$#,##0",
+            "draggable": false,
+            "field": "totalAmount"
           },
           "printElementType": {
             "title": "文本",
@@ -951,28 +1137,21 @@
         },
         {
           "options": {
-            "left": 13.5,
-            "top": 678,
-            "height": 9,
-            "width": 564,
-            "borderWidth": "1.5",
-            "right": 579,
-            "bottom": 721.5,
-            "vCenter": 297,
-            "hCenter": 717,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "borderColor": "#305496"
+            "left": 91.5,
+            "top": 679.5,
+            "height": 70.5,
+            "width": 489,
+            "borderWidth": 0.75
           },
           "printElementType": {
-            "title": "横线",
-            "type": "hline"
+            "title": "矩形",
+            "type": "rect"
           }
         },
         {
           "options": {
             "left": 42,
-            "top": 687,
+            "top": 679.5,
             "height": 13.5,
             "width": 58.5,
             "title": "備考欄：",
@@ -984,72 +1163,9 @@
             "widthHeightSync": false,
             "fontSize": 12,
             "fontWeight": "bold",
-            "qrCodeLevel": 0
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 40.5,
-            "top": 700.5,
-            "height": 42,
-            "width": 537,
-            "title": "长文",
-            "right": 579,
-            "bottom": 742.5,
-            "vCenter": 310.5,
-            "hCenter": 721.5,
-            "field": "remarks",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 12
-          },
-          "printElementType": {
-            "title": "长文",
-            "type": "longText"
-          }
-        },
-        {
-          "options": {
-            "left": 70.5,
-            "top": 742.5,
-            "height": 9,
-            "width": 508.5,
-            "borderWidth": "1.5",
-            "right": 576.75,
-            "bottom": 786.75,
-            "vCenter": 294.75,
-            "hCenter": 782.25,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "borderColor": "#305496"
-          },
-          "printElementType": {
-            "title": "横线",
-            "type": "hline"
-          }
-        },
-        {
-          "options": {
-            "left": 325.5,
-            "top": 754.5,
-            "height": 15,
-            "width": 28.5,
-            "title": "支店",
-            "right": 218.25,
-            "bottom": 763.5,
-            "vCenter": 158.25,
-            "hCenter": 758.625,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 12,
             "qrCodeLevel": 0,
-            "textAlign": "right"
+            "borderWidth": 0.75,
+            "draggable": true
           },
           "printElementType": {
             "title": "文本",
@@ -1058,68 +1174,23 @@
         },
         {
           "options": {
-            "left": 198,
-            "top": 754.5,
-            "height": 15,
-            "width": 28.5,
-            "title": "銀行",
-            "right": 218.25,
-            "bottom": 763.5,
-            "vCenter": 158.25,
-            "hCenter": 758.625,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 12,
-            "qrCodeLevel": 0,
-            "textAlign": "right"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 226.5,
-            "top": 754.5,
-            "height": 15,
-            "width": 99,
-            "title": "文本",
-            "right": 213,
-            "bottom": 769.5,
-            "vCenter": 156,
-            "hCenter": 762,
-            "field": "branch",
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "hideTitle": true,
-            "fontSize": 12,
-            "qrCodeLevel": 0,
-            "textAlign": "right"
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 354,
+            "left": 304.5,
             "top": 754.5,
             "height": 15,
             "width": 75,
-            "title": "普通口座  No ",
-            "right": 433.5,
-            "bottom": 769.5,
-            "vCenter": 408,
-            "hCenter": 762,
+            "title": "普通口座",
+            "right": 378.75,
+            "bottom": 768.75,
+            "vCenter": 341.25,
+            "hCenter": 761.25,
             "coordinateSync": false,
             "widthHeightSync": false,
             "hideTitle": true,
             "fontSize": 12,
             "qrCodeLevel": 0,
-            "textAlign": "right"
+            "textAlign": "right",
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -1128,22 +1199,29 @@
         },
         {
           "options": {
-            "left": 427.5,
+            "left": 199.5,
             "top": 754.5,
             "height": 15,
-            "width": 69,
-            "title": "文本",
-            "right": 213,
-            "bottom": 769.5,
-            "vCenter": 156,
-            "hCenter": 762,
-            "field": "bankNo",
+            "width": 99,
+            "title": "日本橋支店",
+            "right": 298.5,
+            "bottom": 768,
+            "vCenter": 249,
+            "hCenter": 760.5,
             "coordinateSync": false,
             "widthHeightSync": false,
             "hideTitle": true,
             "fontSize": 12,
             "qrCodeLevel": 0,
-            "textAlign": "right"
+            "textAlign": "right",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "zIndex": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -1156,18 +1234,25 @@
             "top": 754.5,
             "height": 15,
             "width": 102,
-            "title": "文本",
+            "title": "三井住友銀行",
             "right": 213,
             "bottom": 769.5,
             "vCenter": 156,
             "hCenter": 762,
-            "field": "bank",
             "coordinateSync": false,
             "widthHeightSync": false,
             "hideTitle": true,
             "fontSize": 12,
             "qrCodeLevel": 0,
-            "textAlign": "right"
+            "textAlign": "right",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "zIndex": 0,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -1176,10 +1261,40 @@
         },
         {
           "options": {
-            "left": 501,
+            "left": 384,
             "top": 754.5,
             "height": 15,
-            "width": 76.5,
+            "width": 69,
+            "title": "9999999",
+            "right": 452.25,
+            "bottom": 768,
+            "vCenter": 417.75,
+            "hCenter": 760.5,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "hideTitle": true,
+            "fontSize": 12,
+            "qrCodeLevel": 0,
+            "textAlign": "right",
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0,
+            "draggable": false
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 459,
+            "top": 754.5,
+            "height": 15,
+            "width": 117,
             "title": "ｶ) ﾆﾎﾝ ｻﾝﾌﾟﾙ",
             "right": 433.5,
             "bottom": 769.5,
@@ -1189,7 +1304,9 @@
             "widthHeightSync": false,
             "hideTitle": true,
             "fontSize": 12,
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -1211,50 +1328,9 @@
             "widthHeightSync": false,
             "fontSize": 12,
             "fontWeight": "bold",
-            "qrCodeLevel": 0
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 127.5,
-            "top": 775.5,
-            "height": 16.5,
-            "width": 126,
-            "right": 114,
-            "bottom": 787.5,
-            "vCenter": 76.5,
-            "hCenter": 780,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12,
             "qrCodeLevel": 0,
-            "field": "paymentTerm",
-            "hideTitle": true
-          },
-          "printElementType": {
-            "title": "文本",
-            "type": "text"
-          }
-        },
-        {
-          "options": {
-            "left": 40.5,
-            "top": 775.5,
-            "height": 16.5,
-            "width": 87,
-            "title": "お支払い期限：",
-            "right": 114,
-            "bottom": 787.5,
-            "vCenter": 76.5,
-            "hCenter": 780,
-            "coordinateSync": false,
-            "widthHeightSync": false,
-            "fontSize": 12,
-            "qrCodeLevel": 0
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
@@ -1275,7 +1351,32 @@
             "coordinateSync": false,
             "widthHeightSync": false,
             "fontSize": 12,
-            "qrCodeLevel": 0
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
+          },
+          "printElementType": {
+            "title": "文本",
+            "type": "text"
+          }
+        },
+        {
+          "options": {
+            "left": 40.5,
+            "top": 775.5,
+            "height": 16.5,
+            "width": 87,
+            "title": "お支払い期限：",
+            "right": 114,
+            "bottom": 787.5,
+            "vCenter": 76.5,
+            "hCenter": 780,
+            "coordinateSync": false,
+            "widthHeightSync": false,
+            "fontSize": 12,
+            "qrCodeLevel": 0,
+            "borderWidth": 0.75,
+            "draggable": false
           },
           "printElementType": {
             "title": "文本",
