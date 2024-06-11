@@ -66,9 +66,14 @@
             "field": "posno",
             "hideTitle": true,
             "zIndex": 999,
-            "title": "文本",
+            "title": "posno",
             "textContentVerticalAlign": "middle",
-            "borderWidth": 0.75
+            "borderWidth": "0.75",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0
           },
           "printElementType": {
             "title": "文本",
@@ -197,10 +202,12 @@
             "tableHeaderRowHeight": 20,
             "tableHeaderFontSize": 9,
             "tableBodyRowHeight": 18,
+            "autoCompletion": "",
+            "gridColumnsGutter": 0,
             "columns": [
               [
                 {
-                  "width": 92.00025,
+                  "width": 81.00450000000001,
                   "title": "prodname\n",
                   "titleSync": false,
                   "field": "prodname",
@@ -217,7 +224,7 @@
                   "tableSummaryAlign": "center"
                 },
                 {
-                  "width": 50.49975,
+                  "width": 61.4955,
                   "title": "price",
                   "titleSync": false,
                   "field": "price",
@@ -228,25 +235,16 @@
                   "colspan": 1,
                   "align": "right",
                   "halign": "center",
+                  "tableTextType": {
+                    "dataType": "number",
+                    "format": "$#,##0"
+                  },
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": false,
                   "tableSummary": "sum",
                   "tableSummaryAlign": "right",
-                  "tableSummaryNumFormat": "0"
-                },
-                {
-                  "width": 85.25,
-                  "checked": false,
-                  "fixed": false,
-                  "rowspan": 1,
-                  "colspan": 1
-                },
-                {
-                  "width": 85.25,
-                  "checked": false,
-                  "fixed": false,
-                  "rowspan": 1,
-                  "colspan": 1
+                  "tableSummaryNumFormat": "0",
+                  "tableSummaryFormatter": "function(column, fieldPageData, tableData, options){\n  let sum = 0;\n  for (let i = 0;i < fieldPageData.length;i++) {\n    sum += fieldPageData[i];\n  }\n  sum = this.numeral(sum).format(column.tableTextType.format);\n  return `<td>合计：${sum}</td>`;\n}"
                 }
               ]
             ]
@@ -309,9 +307,16 @@
             "testData": "540",
             "textAlign": "right",
             "hideTitle": true,
-            "title": "文本",
+            "title": "total",
             "fontWeight": "bold",
-            "borderWidth": 0.75
+            "borderWidth": "0.75",
+            "dataType": "number",
+            "format": "$#,##0",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0
           },
           "printElementType": {
             "title": "文本",
@@ -335,8 +340,15 @@
             "field": "tax",
             "textAlign": "right",
             "hideTitle": true,
-            "title": "文本",
-            "borderWidth": 0.75
+            "title": "tax",
+            "borderWidth": "0.75",
+            "dataType": "number",
+            "format": "$#,##0",
+            "letterSpacing": 0,
+            "contentPaddingLeft": 0,
+            "contentPaddingTop": 0,
+            "contentPaddingRight": 0,
+            "contentPaddingBottom": 0
           },
           "printElementType": {
             "title": "文本",
@@ -431,10 +443,11 @@
             "tableBodyRowBorder": "noBorder",
             "tableBodyCellBorder": "noBorder",
             "fontSize": 9.75,
-            "autoCompletion": false,
+            "autoCompletion": "",
             "lineHeight": 9.75,
             "tableHeaderRowHeight": 20,
             "tableHeaderFontSize": 9,
+            "gridColumnsGutter": 0,
             "columns": [
               [
                 {
@@ -463,23 +476,13 @@
                   "rowspan": 1,
                   "colspan": 1,
                   "align": "right",
+                  "tableTextType": {
+                    "dataType": "number",
+                    "format": "$#,##0"
+                  },
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": true,
                   "tableSummary": ""
-                },
-                {
-                  "width": 85.25,
-                  "checked": false,
-                  "fixed": false,
-                  "rowspan": 1,
-                  "colspan": 1
-                },
-                {
-                  "width": 85.25,
-                  "checked": false,
-                  "fixed": false,
-                  "rowspan": 1,
-                  "colspan": 1
                 }
               ]
             ]
@@ -554,20 +557,6 @@
                   "tableQRCodeLevel": 0,
                   "tableSummaryTitle": true,
                   "tableSummary": ""
-                },
-                {
-                  "width": 275,
-                  "checked": false,
-                  "fixed": false,
-                  "rowspan": 1,
-                  "colspan": 1
-                },
-                {
-                  "width": 275,
-                  "checked": false,
-                  "fixed": false,
-                  "rowspan": 1,
-                  "colspan": 1
                 }
               ]
             ]
