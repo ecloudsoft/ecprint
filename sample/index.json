@@ -65,11 +65,11 @@
       "lastupdate":"20240301"
     },
     {
-      "name": "求人",
+      "name": "求人サンプル",
       "group": "共通",
-      "dataurl": "/data/datajs/求人.json",
-      "configurl": "/data/config/求人.json",
-      "imgurl": "/imgs/求人省略図.png",
+      "dataurl": "/data/datajs/求人サンプル.json",
+      "configurl": "/data/config/求人サンプル.json",
+      "imgurl": "/imgs/求人サンプル省略図.png",
       "descrption": "求人サンプル",
       "lastupdate":"20240619"
     }
