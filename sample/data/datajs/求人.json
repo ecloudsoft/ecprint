@@ -1,0 +1,10 @@
+{
+  "projectTitle": "【エンド直/フルリモ可/フルフレックス可】社内ユーザー目線で活躍していただけるSalesforceを扱える方を募集します",
+  "workContent": "【主な業務内容】\n・プロダクトバックログやスプリント管理\n・社内基幹システムの要件定義・開発（Salesforce等）\n・外部クラウドサービスとの連携開発\n・Salesforceバージョンアップに伴う影響調査\n・AppExchange製品の運用フォロー（パッケージ化、セキュリティレビュー支援等）\n・社内データを活用したレポーティング・データ分析活用\n・開発フローの策定・改善\n・社内問い合わせ対応・技術サポート\n・チームメンバーへの技術支援\n【開発環境】\n・言語：Apex,Visualforce,JavaScript,SOQL,SQL,R,GAS\n・ツール：Salesforce,AccountEngagement(旧Pardot）,GoogleWorkspace,BigQuery,Slack,\nGitHub,GitHubProjects,GitHubActions,Zapier,Exploratory,AppExchang",
+  "requiredSkills": "・5年以上の何らかの言語での開発経験（Java,JavaScript,C#,Ruby,PHP,HTML,CSS等）\n・SalesforcePlatform上での開発/運用経験（Apex）\n・部門を横断した業務システムにおける開発～リリース・運用経験",
+  "welcomeSkills": "・Apexの経験が短いが、システム開発で手を動かしており、Salesforceや社内向けシステム構築に興味を持てる方、AppExchangeの導入運用経験がある方\n・Gitを使用したチームでの開発経験\n・APIを用いたシステム間連携の開発経験\n・財務会計/管理会計、在庫管理などの業務知識",
+  "numberOfInterviews": "1回(Web)",
+  "actuarialRange": "140-180",
+  "locationHowWeWork": "東京都 フルリモート/フルフレックス",
+  "unitPrice": "91"
+}
