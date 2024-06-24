@@ -72,6 +72,15 @@
       "imgurl": "/imgs/求人サンプル省略図.png",
       "descrption": "求人サンプル<br>A4 (h*w=297mm*210mm)",
       "lastupdate":"20240619"
+    },
+    {
+      "name": "求人サンプル",
+      "group": "共通",
+      "dataurl": "/data/datajs/サンプル商品一覧.json",
+      "configurl": "/data/config/サンプル商品一覧.json",
+      "imgurl": "/imgs/サンプル商品一覧省略図.png",
+      "descrption": "サンプル商品一覧<br>A4 (h*w=297mm*210mm)",
+      "lastupdate":"20240624"
     }
   ]
 }

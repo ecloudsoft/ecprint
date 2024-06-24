@@ -1,0 +1,196 @@
+{
+    "panels": [
+        {
+            "index": 0,
+            "name": 1,
+            "paperType": "A4",
+            "height": 297,
+            "width": 210,
+            "paperHeader": 48,
+            "paperFooter": 801.8897637795277,
+            "printElements": [
+                {
+                    "options": {
+                        "left": 252,
+                        "top": 10.5,
+                        "height": 25.5,
+                        "width": 79.5,
+                        "borderWidth": "0.75",
+                        "fontSize": 14,
+                        "title": "商品一覧",
+                        "right": 330.75,
+                        "bottom": 27.75,
+                        "vCenter": 291,
+                        "hCenter": 18.75,
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "fontWeight": "bold",
+                        "letterSpacing": 0,
+                        "contentPaddingLeft": 0,
+                        "contentPaddingTop": 0,
+                        "contentPaddingRight": 0,
+                        "contentPaddingBottom": 0,
+                        "qrCodeLevel": 0,
+                        "textAlign": "center",
+                        "textContentVerticalAlign": "middle"
+                    },
+                    "printElementType": {
+                        "title": "文本",
+                        "type": "text"
+                    }
+                },
+                {
+                    "options": {
+                        "left": 25.5,
+                        "top": 57,
+                        "height": 112.5,
+                        "width": 550,
+                        "autoCompletion": "",
+                        "fontSize": 8,
+                        "lineHeight": 9.75,
+                        "tableHeaderRowHeight": 30,
+                        "tableHeaderFontSize": 9,
+                        "tableBodyRowHeight": 50,
+                        "field": "Product2",
+                        "coordinateSync": false,
+                        "widthHeightSync": false,
+                        "gridColumnsGutter": 0,
+                        "right": 575.5,
+                        "bottom": 94.25,
+                        "vCenter": 300.5,
+                        "hCenter": 75.25,
+                        "columns": [
+                            [
+                                {
+                                    "width": 133.77602230314065,
+                                    "title": "商品名",
+                                    "titleSync": false,
+                                    "field": "Name",
+                                    "checked": true,
+                                    "columnId": "Name",
+                                    "fixed": false,
+                                    "rowspan": 1,
+                                    "colspan": 1,
+                                    "align": "left",
+                                    "halign": "center",
+                                    "tableQRCodeLevel": 0,
+                                    "tableSummaryTitle": true,
+                                    "tableSummary": ""
+                                },
+                                {
+                                    "width": 43.039884615384636,
+                                    "title": "商品数",
+                                    "titleSync": false,
+                                    "field": "Quantity",
+                                    "checked": true,
+                                    "columnId": "Quantity",
+                                    "fixed": false,
+                                    "rowspan": 1,
+                                    "colspan": 1,
+                                    "align": "right",
+                                    "halign": "center",
+                                    "tableQRCodeLevel": 0,
+                                    "tableSummaryTitle": true,
+                                    "tableSummary": ""
+                                },
+                                {
+                                    "width": 48.05969082840227,
+                                    "title": "商品価格",
+                                    "titleSync": false,
+                                    "field": "UnitPrice",
+                                    "checked": true,
+                                    "columnId": "UnitPrice",
+                                    "fixed": false,
+                                    "rowspan": 1,
+                                    "colspan": 1,
+                                    "align": "right",
+                                    "halign": "center",
+                                    "tableTextType": {
+                                        "dataType": "number",
+                                        "format": "￥#,##0"
+                                    },
+                                    "tableQRCodeLevel": 0,
+                                    "tableSummaryTitle": true,
+                                    "tableSummary": ""
+                                },
+                                {
+                                    "width": 255.12943957669552,
+                                    "title": "商品 説明",
+                                    "titleSync": false,
+                                    "field": "Description",
+                                    "checked": true,
+                                    "columnId": "Description",
+                                    "fixed": false,
+                                    "rowspan": 1,
+                                    "colspan": 1,
+                                    "align": "left",
+                                    "halign": "center",
+                                    "tableColumnHeight": "40",
+                                    "tableQRCodeLevel": 0,
+                                    "tableSummaryTitle": true,
+                                    "tableSummary": ""
+                                },
+                                {
+                                    "width": 69.99496267637687,
+                                    "title": "商品コード",
+                                    "titleSync": false,
+                                    "field": "ProductCode",
+                                    "checked": true,
+                                    "columnId": "ProductCode",
+                                    "fixed": false,
+                                    "rowspan": 1,
+                                    "colspan": 1,
+                                    "align": "center",
+                                    "halign": "center",
+                                    "tableColumnHeight": "40",
+                                    "tableTextType": {
+                                        "dataType": "barcode",
+                                        "format": "默认"
+                                    },
+                                    "tableQRCodeLevel": 0,
+                                    "tableSummaryTitle": true,
+                                    "tableSummary": ""
+                                }
+                            ]
+                        ]
+                    },
+                    "printElementType": {
+                        "title": "表格",
+                        "type": "table",
+                        "editable": true,
+                        "columnDisplayEditable": true,
+                        "columnDisplayIndexEditable": true,
+                        "columnTitleEditable": true,
+                        "columnResizable": true,
+                        "columnAlignEditable": true,
+                        "isEnableEditField": true,
+                        "isEnableContextMenu": true,
+                        "isEnableInsertRow": true,
+                        "isEnableDeleteRow": true,
+                        "isEnableInsertColumn": true,
+                        "isEnableDeleteColumn": true,
+                        "isEnableMergeCell": true
+                    }
+                }
+            ],
+            "paperNumberLeft": 565,
+            "paperNumberTop": 819,
+            "paperNumberContinue": true,
+            "overPrintOptions": {
+                "content": "",
+                "opacity": 0.7,
+                "type": 1
+            },
+            "watermarkOptions": {
+                "content": "",
+                "fillStyle": "rgba(184, 184, 184, 0.3)",
+                "fontSize": "14px",
+                "rotate": 25,
+                "width": 200,
+                "height": 200,
+                "timestamp": false,
+                "format": "YYYY-MM-DD HH:mm"
+            }
+        }
+    ]
+}
