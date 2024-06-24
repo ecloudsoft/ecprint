@@ -74,7 +74,7 @@
       "lastupdate":"20240619"
     },
     {
-      "name": "求人サンプル",
+      "name": "サンプル商品一覧",
       "group": "共通",
       "dataurl": "/data/datajs/サンプル商品一覧.json",
       "configurl": "/data/config/サンプル商品一覧.json",
