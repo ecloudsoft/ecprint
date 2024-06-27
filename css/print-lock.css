@@ -11,7 +11,7 @@
 
 .hiprint-printPaper * {
   box-sizing: border-box;
-  image-rendering: -webkit-optimize-contrast; /* 让图片/标尺稍微清楚一点 */
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .hiprint-printPaper *:focus {
@@ -102,7 +102,7 @@ hiprint-printPanel {
   padding-top: 0pt;
   text-align: left;
   text-decoration: none;
-  line-height: 9.75pt;
+  line-height: 1.1;
   box-sizing: border-box;
   word-wrap: break-word;
   word-break: break-all;
@@ -128,11 +128,10 @@ hiprint-printPanel {
   padding-top: 0pt;
   text-align: left;
   text-decoration: none;
-  line-height: 9.75pt;
+  line-height: 1.1;
   box-sizing: border-box;
   word-wrap: break-word;
   word-break: break-all;
-  /*white-space: pre-wrap*/
 }
 
 .hiprint-printElement-table {
@@ -162,12 +161,14 @@ hiprint-printPanel {
   font-weight: 700;
 }
 
+table.hiprint-printElement-tableTarget {
+  width: 100%;
+}
+
 .hiprint-printElement-tableTarget,
 .hiprint-printElement-tableTarget tr,
 .hiprint-printElement-tableTarget td {
   border-color: rgb(0, 0, 0);
-  /* border-style: none; */
-  /*border: 1px solid rgb(0,0,0);*/
   font-weight: normal;
   direction: ltr;
   padding-bottom: 0pt;
@@ -179,8 +180,6 @@ hiprint-printPanel {
   box-sizing: border-box;
   word-wrap: break-word;
   word-break: break-all;
-  /*line-height: 9.75pt;
-    font-size: 9pt;*/
 }
 
 .hiprint-printElement-tableTarget-border-all {
@@ -213,15 +212,26 @@ hiprint-printPanel {
 .hiprint-printElement-tableTarget-border-td-none td {
   border: 0px solid;
 }
-.hiprint-printElement-tableTarget-border-td-all td:not(:last-child) {
-  border-right: 1px solid;
+.hiprint-printElement-tableTarget-border-td-all td:not(:first-child) {
+  border-left: 1px solid #000;
+}
+.hiprint-printElement-tableTarget-border-td-all td:last-child:first-child {
+  border-left: none;
 }
 
-/*.hiprint-printElement-tableTarget tr,*/
 .hiprint-printElement-tableTarget td {
   height: 18pt;
 }
 
+.hiprint-printElement-tableTarget-border-row-dashed {
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+}
+
+.hiprint-printElement-tableTarget-border-cell-dashed {
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+}
 .hiprint-printPaper .hiprint-paperNumber {
   font-size: 9pt;
 }
@@ -232,6 +242,21 @@ hiprint-printPanel {
   width: 12pt;
   background: red;
   z-index: 1;
+}
+.hiprint-printElement-html-content {
+  border: 1px dashed rgb(206, 188, 188);
+  box-sizing: border-box;
+}
+.hi-td-left {
+  text-align: left;
+}
+
+.hi-td-right {
+  text-align: right;
+}
+
+.hi-td-center {
+  text-align: center;
 }
 
 .hiprint-printPaper .hiprint-paperNumber-disabled {
