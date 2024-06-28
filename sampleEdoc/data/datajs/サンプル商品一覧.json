@@ -1,0 +1,104 @@
+[
+  {
+    "Product2": [
+      {
+        "ProductCode": "DEMA1002",
+        "Description": "高性能ゲーミングヘッドセット、ノイズキャンセリングマイク付き、PS5/PC/スマホ対応、RGBライト、快適なイヤーパッド",
+        "UnitPrice": "2999",
+        "Quantity": "120",
+        "Name": "ゲーミングヘッドセット"
+      },
+      {
+        "ProductCode": "DEMB2002",
+        "Description": "fanxiang S101 SATA SSD 512GB 2.5インチ 7mm 3D NAND TLC採用 SATAⅢ 6Gb/s SSD 512 PS4動作確認済 内蔵SSD 耐久性 ノートパソコン/デスクトップ/PS4に対応 3年メーカー保証",
+        "UnitPrice": "4899",
+        "Quantity": "80",
+        "Name": "内蔵SSD 512GB"
+      },
+      {
+        "ProductCode": "DEMA1003",
+        "Description": "ワイヤレスキーボードとマウスセット、静音デザイン、2.4GHz接続、充電式バッテリー、Windows/Mac対応",
+        "UnitPrice": "2399",
+        "Quantity": "200",
+        "Name": "ワイヤレスキーボードセット"
+      },
+      {
+        "ProductCode": "DEMB2003",
+        "Description": "外付けHDD 1TB USB 3.0 高速転送、耐衝撃ポータブルハードディスク、Windows/Mac/PS4/PS5対応",
+        "UnitPrice": "3999",
+        "Quantity": "100",
+        "Name": "外付けHDD 1TB"
+      },
+      {
+        "ProductCode": "DEMA1004",
+        "Description": "ゲーミングチェア、エルゴノミックデザイン、リクライニング機能、腰部サポート、耐久性のあるPUレザー",
+        "UnitPrice": "15999",
+        "Quantity": "50",
+        "Name": "ゲーミングチェア"
+      },
+      {
+        "ProductCode": "DEMB2004",
+        "Description": "fanxiang S101 SATA SSD 1TB 2.5インチ 7mm 3D NAND TLC採用 SATAⅢ 6Gb/s SSD 1TB PS4動作確認済 内蔵SSD 耐久性 ノートパソコン/デスクトップ/PS4に対応 3年メーカー保証",
+        "UnitPrice": "8799",
+        "Quantity": "70",
+        "Name": "内蔵SSD 1TB"
+      },
+      {
+        "ProductCode": "DEMA1005",
+        "Description": "4Kモニター 27インチ、IPSパネル、HDR対応、HDMI/DisplayPort接続、ブルーライトカット機能",
+        "UnitPrice": "27999",
+        "Quantity": "40",
+        "Name": "4Kモニター"
+      },
+      {
+        "ProductCode": "DEMB2005",
+        "Description": "外付けSSD 500GB USB 3.1 高速転送、耐衝撃ポータブルSSD、Windows/Mac/PS4/PS5対応",
+        "UnitPrice": "6999",
+        "Quantity": "90",
+        "Name": "外付けSSD 500GB"
+      },
+      {
+        "ProductCode": "DEMA1006",
+        "Description": "ゲーミングマウス、有線/無線両対応、RGBライト、プログラマブルボタン、DPI調整可能",
+        "UnitPrice": "1999",
+        "Quantity": "150",
+        "Name": "ゲーミングマウス"
+      },
+      {
+        "ProductCode": "DEMB2006",
+        "Description": "fanxiang S101 SATA SSD 2TB 2.5インチ 7mm 3D NAND TLC採用 SATAⅢ 6Gb/s SSD 2TB PS4動作確認済 内蔵SSD 耐久性 ノートパソコン/デスクトップ/PS4に対応 3年メーカー保証",
+        "UnitPrice": "15999",
+        "Quantity": "30",
+        "Name": "内蔵SSD 2TB"
+      },
+      {
+        "ProductCode": "DEMA1007",
+        "Description": "高性能ゲーミングマウスパッド、RGBライト、滑り止めデザイン、防水加工、大型サイズ",
+        "UnitPrice": "1299",
+        "Quantity": "300",
+        "Name": "ゲーミングマウスパッド"
+      },
+      {
+        "ProductCode": "DEMA1008",
+        "Description": "ゲーミングキーボード、メカニカルスイッチ、RGBライト、プログラマブルキー、耐久性のあるデザイン",
+        "UnitPrice": "4999",
+        "Quantity": "110",
+        "Name": "ゲーミングキーボード"
+      },
+      {
+        "ProductCode": "DEMB2008",
+        "Description": "fanxiang S101 SATA SSD 128GB 2.5インチ 7mm 3D NAND TLC採用 SATAⅢ 6Gb/s SSD 128 PS4動作確認済 内蔵SSD 耐久性 ノートパソコン/デスクトップ/PS4に対応 3年メーカー保証",
+        "UnitPrice": "1999",
+        "Quantity": "140",
+        "Name": "内蔵SSD 128GB"
+      },
+      {
+        "ProductCode": "DEMA1009",
+        "Description": "ゲーミングモニター 24インチ、144Hzリフレッシュレート、フルHD、HDMI/DisplayPort接続、ブルーライトカット機能",
+        "UnitPrice": "17999",
+        "Quantity": "70",
+        "Name": "ゲーミングモニター"
+      }
+    ]
+  }
+]
