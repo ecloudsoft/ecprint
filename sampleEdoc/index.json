@@ -3,7 +3,7 @@
   "details": [
     {
       "name": "サンプル請求書01",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプル請求書01.json",
       "configurl": "/data/config/サンプル請求書01.json",
       "imgurl": "/imgs/サンプル請求書01.png",
@@ -12,7 +12,7 @@
     },
     {
       "name": "サンプル請求書02",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプル請求書02.json",
       "configurl": "/data/config/サンプル請求書02.json",
       "imgurl": "/imgs/サンプル請求書02.png",
@@ -21,7 +21,7 @@
     },
     {
       "name": "サンプルレシート01",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプルレシート01.json",
       "configurl": "/data/config/サンプルレシート01.json",
       "imgurl": "/imgs/レシート省略図.png",
@@ -30,7 +30,7 @@
     },
     {
       "name": "サンプルBAR-QR(横)",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプルBAR-QR(横).json",
       "configurl": "/data/config/サンプルBAR-QR(横).json",
       "imgurl": "/imgs/サンプルBAR-QR(横).png",
@@ -39,7 +39,7 @@
     },
     {
       "name": "サンプル領収書01",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプル領収書01.json",
       "configurl": "/data/config/サンプル領収書01.json",
       "imgurl": "/imgs/サンプル領収書01.png",
@@ -48,7 +48,7 @@
     },
     {
       "name": "申告書サンプル",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/申告書サンプル.json",
       "configurl": "/data/config/申告書サンプル.json",
       "imgurl": "/imgs/申告書サンプル.png",
@@ -57,7 +57,7 @@
     },
     {
       "name": "チャートサンプル",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプルチャート.json",
       "configurl": "/data/config/サンプルチャート.json",
       "imgurl": "/imgs/チャート省略図.png",
@@ -66,7 +66,7 @@
     },
     {
       "name": "求人サンプル",
-      "group": "サンプル",
+      "group": "共通",
       "dataurl": "/data/datajs/求人サンプル.json",
       "configurl": "/data/config/求人サンプル.json",
       "imgurl": "/imgs/求人サンプル省略図.png",
@@ -75,7 +75,7 @@
     },
     {
       "name": "サンプル商品一覧",
-      "group": "商品",
+      "group": "共通",
       "dataurl": "/data/datajs/サンプル商品一覧.json",
       "configurl": "/data/config/サンプル商品一覧.json",
       "imgurl": "/imgs/サンプル商品一覧省略図.png",
