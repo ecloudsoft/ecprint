@@ -4,6 +4,7 @@
     {
       "name": "サンプル請求書01",
       "group": "发票",
+      "groupLang": ["发票", "請求書", "Bill"],
       "dataurl": "/data/datajs/サンプル請求書01.json",
       "configurl": "/data/config/サンプル請求書01.json",
       "imgurl": "/imgs/サンプル請求書01.png",
@@ -13,6 +14,7 @@
     {
       "name": "サンプル請求書02",
       "group": "发票",
+      "groupLang": ["发票", "請求書", "Bill"],
       "dataurl": "/data/datajs/サンプル請求書02.json",
       "configurl": "/data/config/サンプル請求書02.json",
       "imgurl": "/imgs/サンプル請求書02.png",
@@ -22,6 +24,7 @@
     {
       "name": "サンプルレシート01",
       "group": "收据",
+      "groupLang": ["收据", "領収書", "Receipt"],
       "dataurl": "/data/datajs/サンプルレシート01.json",
       "configurl": "/data/config/サンプルレシート01.json",
       "imgurl": "/imgs/レシート省略図.png",
@@ -31,6 +34,7 @@
     {
       "name": "サンプルBAR-QR(横)",
       "group": "条码",
+      "groupLang": ["条码", "バーコード", "Barcode"],
       "dataurl": "/data/datajs/サンプルBAR-QR(横).json",
       "configurl": "/data/config/サンプルBAR-QR(横).json",
       "imgurl": "/imgs/サンプルBAR-QR(横).png",
@@ -40,6 +44,7 @@
     {
       "name": "サンプル領収書01",
       "group": "收据",
+      "groupLang": ["收据", "領収書", "Receipt"],
       "dataurl": "/data/datajs/サンプル領収書01.json",
       "configurl": "/data/config/サンプル領収書01.json",
       "imgurl": "/imgs/サンプル領収書01.png",
@@ -49,6 +54,7 @@
     {
       "name": "申告書サンプル",
       "group": "申报表",
+      "groupLang": ["申报表", "申告書", "Declaration Form"],
       "dataurl": "/data/datajs/申告書サンプル.json",
       "configurl": "/data/config/申告書サンプル.json",
       "imgurl": "/imgs/申告書サンプル.png",
@@ -58,6 +64,7 @@
     {
       "name": "チャートサンプル",
       "group": "图表",
+      "groupLang": ["图表", "グラフ", "Chart"],
       "dataurl": "/data/datajs/サンプルチャート.json",
       "configurl": "/data/config/サンプルチャート.json",
       "imgurl": "/imgs/チャート省略図.png",
@@ -67,6 +74,7 @@
     {
       "name": "求人サンプル",
       "group": "招聘",
+      "groupLang": ["招聘", "採用", "Recruitment"],
       "dataurl": "/data/datajs/求人サンプル.json",
       "configurl": "/data/config/求人サンプル.json",
       "imgurl": "/imgs/求人サンプル省略図.png",
@@ -76,6 +84,7 @@
     {
       "name": "サンプル商品一覧",
       "group": "商品",
+      "groupLang": ["商品", "商品", "Product"],
       "dataurl": "/data/datajs/サンプル商品一覧.json",
       "configurl": "/data/config/サンプル商品一覧.json",
       "imgurl": "/imgs/サンプル商品一覧省略図.png",
