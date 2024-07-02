@@ -7,7 +7,7 @@
       "dataurl": "/data/datajs/サンプル請求書01.json",
       "configurl": "/data/config/サンプル請求書01.json",
       "imgurl": "/imgs/サンプル請求書01.png",
-      "descrption": "請求書サンプル<br>A4 (h*w=297mm*210mm)",
+      "descrption": "請求書サンプル(dev)<br>A4 (h*w=297mm*210mm)",
       "lastupdate":"20240206"
     },
     {
