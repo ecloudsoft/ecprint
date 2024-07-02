@@ -1,14 +1,13 @@
 {
   "rootpath": "https://ecloudsoft.github.io/ecprint/sample",
-  "details": [
-    {
-      "name": "サンプル請求書01",
-      "group": "共通",
-      "dataurl": "/data/datajs/サンプル請求書01.json",
-      "configurl": "/data/config/サンプル請求書01.json",
-      "imgurl": "/imgs/サンプル請求書01.png",
-      "descrption": "請求書サンプル<br>A4 (h*w=297mm*210mm)",
-      "lastupdate":"20240206"
-    }
-  ]
+  "折线图": {
+    "cn": "参数说明:\n\n```message\n1. 数据来源：图表的数据源。\n2. X轴配置：决定X轴上标记的是哪些信息。\n3. Y轴配置：说明Y轴用来展示哪些数值。\n4. 样式要求：指定图表的设计方案比如颜色方案、背景等。\n```样例：\n\n```message\n1. 数据来源：将templateData中的表格histogramTable，生成折线图。\n2. X轴配置：表格的标题。\n3. Y轴配置：字段值。\n4. 样式要求：\n - 颜色方案：折线颜色按照表格的记录分类，显示不同颜色。\n - 折线上显示值。\n```",
+    "en": "Parameter Description:\n\n```message\n1. Data Source: Data source of the chart.\n2. X-axis Configuration: Decide what information is labeled on the X-axis.\n3. Y-axis Configuration: Explain what values are displayed on the Y-axis.\n4. Style Requirements: Specify the design scheme of the chart, such as color scheme, background, etc.\n```Sample:\n\n```message\n1. Data Source: Generate a line chart from the histogramTable in templateData.\n2. X-axis Configuration: Titles of the table.\n3. Y-axis Configuration: Field values.\n4. Style Requirements:\n - Color Scheme: Line colors are based on table record categories, displaying different colors.\n - Display values on the line.\n```",
+    "ja": "パラメータの説明:\n\n```message\n1. データソース: チャートのデータソース。\n2. X軸の設定: X軸にどの情報をラベル付けするかを決定します。\n3. Y軸の設定: Y軸にどの値を表示するかを説明します。\n4. スタイル要件: カラースキーム、背景などのチャートのデザインスキームを指定します。\n```サンプル：\n\n```message\n1. データソース: templateDataのhistogramTableから折れ線グラフを生成します。\n2. X軸の設定: テーブルのタイトル。\n3. Y軸の設定: フィールド値。\n4. スタイル要件：\n - カラースキーム: テーブルレコードカテゴリに基づいて折れ線の色を表示し、異なる色を表示します。\n - 折れ線上に値を表示します。\n```"
+  },
+  "柱状图": {},
+  "饼图": {},
+  "雷达图": {},
+  "散点图": {},
+  "漏斗图": {}
 }
