@@ -25,8 +25,8 @@
   position: relative;
   padding: 0 0 0 0;
   page-break-after: always;
-  -webkit-user-select: none; /* Chrome/Safari/Opera */
-  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none;
+  -moz-user-select: none;
   user-select: none;
   overflow-x: hidden;
   overflow: hidden;
@@ -218,7 +218,6 @@ table.hiprint-printElement-tableTarget {
 .hiprint-printElement-tableTarget-border-td-all td:last-child:first-child {
   border-left: none;
 }
-
 .hiprint-printElement-tableTarget td {
   height: 18pt;
 }
@@ -258,7 +257,6 @@ table.hiprint-printElement-tableTarget {
 .hi-td-center {
   text-align: center;
 }
-
 .hiprint-printPaper .hiprint-paperNumber-disabled {
   float: right !important;
   right: 0 !important;
@@ -322,7 +320,6 @@ table.hiprint-printElement-tableTarget {
   text-overflow: ellipsis;
 }
 
-/*hi-grid-row */
 .hi-grid-row {
   position: relative;
   height: auto;
