@@ -19,7 +19,7 @@
       "imgurl": "/imgs/サンプル請求書02.png",
       "descrption": "請求書サンプル<br>A4 (h*w=297mm*210mm)",
       "lastupdate":"20240206",
-      "version": 0.11
+      "version": 0.1
     },
     {
       "name": "サンプルレシート01",
@@ -29,7 +29,7 @@
       "imgurl": "/imgs/レシート省略図.png",
       "descrption": "レシートサンプル<br>ｶｽﾀﾏｲｽ (h*w=297mm*210mm)",
       "lastupdate":"20240207",
-      "version": 0.09
+      "version": 0.1
     },
     {
       "name": "サンプルBAR-QR(横)",
@@ -38,7 +38,8 @@
       "configurl": "/data/config/サンプルBAR-QR(横).json",
       "imgurl": "/imgs/サンプルBAR-QR(横).png",
       "descrption": "サンプルBAR-QR(横)サンプル<br>ｶｽﾀﾏｲｽ (h*w=91mm*182mm)",
-      "lastupdate":"20240207"
+      "lastupdate":"20240207",
+      "version": 0.1
     },
     {
       "name": "サンプル領収書01",
@@ -47,7 +48,8 @@
       "configurl": "/data/config/サンプル領収書01.json",
       "imgurl": "/imgs/サンプル領収書01.png",
       "descrption": "領収書サンプル<br>B6 (h*w=128mm*182mm)",
-      "lastupdate":"20240216"
+      "lastupdate":"20240216",
+      "version": 0.1
     },
     {
       "name": "申告書サンプル",
@@ -56,7 +58,8 @@
       "configurl": "/data/config/申告書サンプル.json",
       "imgurl": "/imgs/申告書サンプル.png",
       "descrption": "申告書サンプル(レイアウト取り込み)<br>A3 (h*w=420mm*297mm)",
-      "lastupdate":"20240222"
+      "lastupdate":"20240222",
+      "version": 0.1
     },
     {
       "name": "チャートサンプル",
@@ -65,7 +68,8 @@
       "configurl": "/data/config/サンプルチャート.json",
       "imgurl": "/imgs/チャート省略図.png",
       "descrption": "チャートサンプル<br>ｶｽﾀﾏｲｽ (h*w=725mm*210mm)",
-      "lastupdate":"20240301"
+      "lastupdate":"20240301",
+      "version": 0.1
     },
     {
       "name": "求人サンプル",
@@ -74,7 +78,8 @@
       "configurl": "/data/config/求人サンプル.json",
       "imgurl": "/imgs/求人サンプル省略図.png",
       "descrption": "求人サンプル<br>A4 (h*w=297mm*210mm)",
-      "lastupdate":"20240619"
+      "lastupdate":"20240619",
+      "version": 0.1
     },
     {
       "name": "サンプル商品一覧",
@@ -83,7 +88,8 @@
       "configurl": "/data/config/サンプル商品一覧.json",
       "imgurl": "/imgs/サンプル商品一覧省略図.png",
       "descrption": "サンプル商品一覧<br>A4 (h*w=297mm*210mm)",
-      "lastupdate":"20240624"
+      "lastupdate":"20240624",
+      "version": 0.1
     }
   ]
 }
