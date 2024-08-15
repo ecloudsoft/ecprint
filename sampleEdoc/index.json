@@ -9,7 +9,7 @@
       "imgurl": "/imgs/サンプル請求書01.png",
       "descrption": "請求書サンプル<br>A4 (h*w=297mm*210mm)",
       "lastupdate":"20240206",
-      "version": 1.0
+      "version": 0.1
     },
     {
       "name": "サンプル請求書02",
@@ -19,7 +19,7 @@
       "imgurl": "/imgs/サンプル請求書02.png",
       "descrption": "請求書サンプル<br>A4 (h*w=297mm*210mm)",
       "lastupdate":"20240206",
-      "version": 1.0
+      "version": 0.1
     },
     {
       "name": "サンプルレシート01",
